@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="338.92023mm"
+   height="254.25383mm"
+   viewBox="0 0 338.92023 254.25383"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="border_4-3outline.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.56149103"
+     inkscape:cx="750.12646"
+     inkscape:cy="610.58754"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(187.98095,-21.706418)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-478.42975,450.45797)"
+       inkscape:label="4-3 Centered"
+       id="g4493">
+      <g
+         transform="scale(0.176687)"
+         id="g4495">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4501"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="M 4752.81,6786.23 V 5490.38 l 1928.83,80.82 -311.06,1215.03 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4503"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 6454.8,6786.23 h 3549.3 V 5711.79 L 6765.18,5575.28 Z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4505"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="M 4752.81,5408.2 V 4381.98 l 2832.12,-104.59 -105.27,1246.27 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4507"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 7561.16,5527.06 2442.94,103.23 V 4187.74 L 7666.43,4274 Z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4509"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 10004.1,4106.24 -1547.8,57.05 171.83,-1096.85 h 1375.97 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4511"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 7032.09,4216.27 1341.36,-49.58 172.5,-1100.25 H 6505.74 Z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4513"
+           style="fill:none;stroke:#000000;stroke-width:26.47147473;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="M 4752.81,4300.48 6943.8,4218.98 6416.09,3066.44 H 4752.81 Z" />
+      </g>
+    </g>
+  </g>
+</svg>
