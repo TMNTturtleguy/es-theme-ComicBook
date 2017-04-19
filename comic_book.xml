@@ -1,0 +1,242 @@
+<!--
+Theme: ComicBook
+version: 1.0
+author: Kevin Thueringer (TMNTturtlguy)
+Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
+Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
+Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
+
+-->
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+
+		<helpsystem name="help">
+			<textColor>7d7d7d</textColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.030 0.942</pos>
+			<iconColor>7d7d7d</iconColor>
+		</helpsystem>
+		
+		<image name="SystemBackground" extra="true">
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/menu.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>33333399</selectorColor>
+			<selectedColor>eeeeee</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.014 0.18</pos>
+			<size>0.478 0.7495</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<fontSize>0.0335</fontSize>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+		
+		<helpsystem name="help">
+			<textColor>7d7d7d</textColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.030 0.944</pos>
+			<iconColor>7d7d7d</iconColor>
+		</helpsystem>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="md_image">
+			<pos>0.67 0.4</pos>
+			<maxSize>0.3 0.408</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+	
+	<view name="video">
+	
+		<video name="md_video">
+			<pos>0.67 0.4</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.3 0.408</maxSize>
+			<delay>0.05</delay>
+			<default></default>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+		</video>
+		
+		<image name="md_marquee">
+			<pos>0.74 0.086</pos>
+			<maxSize>0.26 0.1</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+	
+	<view name="detailed, video">
+	
+		<image name="background">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/menu.png</path>
+		</image>
+		
+		<helpsystem name="help">
+			<textColor>7d7d7d</textColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.030 0.944</pos>
+			<iconColor>7d7d7d</iconColor>
+		</helpsystem>
+
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</text>
+
+		<text name="md_lbl_rating, md_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+			<pos>1 1</pos>
+		</text>
+
+		<datetime name="md_lastplayed, md_releasedate">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</datetime>
+
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+
+		<text name="md_lbl_releasedate">
+			<pos>0.513 0.635</pos>
+			<size>0 0.033</size>
+			<color>000000</color>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.59 0.635</pos>
+			<size>0 0.033</size>
+		</datetime>
+
+		<text name="md_lbl_genre">
+			<pos>0.513 0.66</pos>
+			<size>0 0.033</size>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.59 0.668</pos>
+			<size>0.16 0.02</size>
+		</text>
+
+		<text name="md_lbl_developer">
+			<pos>0.513 0.685</pos>
+			<size>0 0</size>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.59 0.694</pos>
+			<size>0.18 0.02</size>
+		</text>
+
+		<text name="md_lbl_players, md_players">
+			<pos>0.89 0.635</pos>
+			<size>0.09 0</size>
+		</text>
+
+		<text name="md_players">
+			<pos>0.96 0.635</pos>
+			<size>0.02 0</size>
+		</text>
+		
+		<rating name="md_rating">
+         <pos>0.87 0.66</pos>
+         <size>0 0.038</size>
+         <filledPath>./art/star_filled.png</filledPath>
+         <unfilledPath>./art/star_empty.png</unfilledPath>
+        </rating>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.88 0.685</pos>
+			<size>0.0 0.033</size>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.96 0.685</pos>
+			<size>0.02 0</size>
+		</text>
+
+		<text name="md_description">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0.45 0.19</size>
+			<pos>0.525 0.746</pos>
+		</text>
+
+		<textlist name="gamelist">
+			<selectorColor>33333399</selectorColor>
+			<selectedColor>eeeeee</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.014 0.18</pos>
+			<size>0.478 0.7495</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<fontSize>0.0335</fontSize>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+
+		<image name="md_hidden">
+			<pos>0.823 0.700</pos>
+			<path>./art/hidden.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>000099</color>
+		</image>
+		<image name="md_kidgame">
+			<pos>0.883 0.700</pos>
+			<path>./art/kid.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>000099</color>
+		</image>
+		<image name="md_favorite">
+			<pos>0.940 0.700</pos>
+			<path>./art/favorite.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>000099</color>
+		</image>
+
+	</view>
+
+
+</theme>
