@@ -82,6 +82,12 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<showSnapshotDelay>false</showSnapshotDelay>
 		</video>
 		
+		<image name="md_marquee">
+			<pos>1 1</pos>
+			<maxSize>0 0</maxSize>
+			<origin>0 0</origin>
+		</image>
+		
 	</view>
 	
 	<view name="detailed, video">
