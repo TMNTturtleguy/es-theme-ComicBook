@@ -52,7 +52,7 @@ a<theme>
 		
 		<image name="md_image">
 			<pos>0.982 0.6</pos>
-			<size>0.127 0.149</size>
+			<maxSize>0.127 0.149</maxSize>
 			<origin>1 1</origin>
 		</image>
 		
