@@ -29,9 +29,9 @@ a<theme>
 	<view name="basic, detailed, video">
 		
 		<image name="logo">
-			<path>./art/system 3.svg</path>
-			<pos>0.75 0.086</pos>
-			<maxSize>0.26 0.1</maxSize>
+			<path>./art/system.png</path>
+			<pos>0.266 0.082</pos>
+			<maxSize>0.460 0.126</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 		
@@ -43,19 +43,18 @@ a<theme>
 			<color>ffffff</color>
 		</image>
 		
-		<image name="logo3" extra="true">
-			<path>./art/system.png</path>
-			<pos>0.266 0.086</pos>
-			<maxSize>0.460 0.1</maxSize>
+		<image name="md_marquee">
+			<pos>0.74 0.086</pos>
+			<maxSize>0.26 0.1</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 		
 		<image name="md_image">
 			<pos>0.982 0.6</pos>
-			<size>0.127 0.149</size>
+			<maxSize>0.127 0.149</maxSize>
 			<origin>1 1</origin>
 		</image>
-		
+						
 	</view>
 
 	<view name="basic">		
