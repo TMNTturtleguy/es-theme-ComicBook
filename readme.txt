@@ -91,12 +91,11 @@ v2.1 4-19-2017
 	launch sounds added to all sega systems
 	comic backgrounds updated for FB Alpha and all Mame systems to match the Arcade background for the time being.
 	Comic background updated for all sega systems to match sega genesis background for the time being.
-	
+
 v2.2 4-20-2017
 	Marquee conflict resolved
 		Added marquee back to comic_book.xml and moved off of screen.
 	md_image below controller centered.
-
 
 License
 =======
