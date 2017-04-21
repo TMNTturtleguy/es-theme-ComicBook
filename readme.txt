@@ -1,4 +1,4 @@
-Theme 'ComicBook' v2.0 - 04-18-2017 by TMNTturtlguy
+Theme 'ComicBook' v2.2 - 04-20-2017 by TMNTturtlguy
 Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
