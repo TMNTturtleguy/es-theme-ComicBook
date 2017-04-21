@@ -1,4 +1,4 @@
-Theme 'ComicBook' v2.1 - 04-19-2017 by TMNTturtlguy
+Theme 'ComicBook' v2.0 - 04-18-2017 by TMNTturtlguy
 Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
@@ -81,6 +81,7 @@ v2.0 4-18-2017
 		Ports
 		ScummVM
 		Steam
+		
 v2.1 4-19-2017
 	md_image in video/detail view changed to maxSize
 	Marquee conflict resolved
@@ -90,6 +91,12 @@ v2.1 4-19-2017
 	launch sounds added to all sega systems
 	comic backgrounds updated for FB Alpha and all Mame systems to match the Arcade background for the time being.
 	Comic background updated for all sega systems to match sega genesis background for the time being.
+	
+v2.2 4-20-2017
+	Marquee conflict resolved
+		Added marquee back to comic_book.xml and moved off of screen.
+	md_image below controller centered.
+
 
 License
 =======
