@@ -1,8 +1,13 @@
-Theme 'ComicBook' v2.2 - 04-20-2017 by TMNTturtlguy
+Theme 'ComicBook' v2.3 - 04-29-2017 by TMNTturtlguy
 Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 For use with EmulationStation (http://www.emulationstation.org/)
+
+Special thanks to all who helped:
+- modmaster - for helping create additional system backgrounds
+- pjft - for all the support throughout the build, testing, and work on the pixel effect
+- Nismo - for all of the testing, input, and suggested improvements
 
 This theme is designed for 16:9 aspect ratio only.  It will work on small screens and is tested to work on up to 55" 4K HDTV with excelent quality
 -it was noticed on some TV (LG HDTV) that the raspberry Pi picture is zoomed when the TV is set to 16:9.  Change the TV ratio to "list". All other Tv's work 16:9
@@ -10,11 +15,12 @@ This theme is designed for 16:9 aspect ratio only.  It will work on small screen
 
 Theme is designed to be used with the slide transition.
 
-To run this theme smoothly you may need to change the VRAM up or Down.  On the most updates Emulation Station I run the theme on VRAM 70.  On the ES Build before maxSize I had to run at VRAM 120.
+To run this theme smoothly with the slide tranistion you may need to change the VRAM up or Down depending on the version of your build and the number of systems.  Starting at V2.3 can now run 20+ systems without modifying VRAM.
 
-v2.0 is designed on EmulationStation with maxSize for video and carasoul updates.  It also works on the udpated Screensaver OMX build by @pjft on Apr2017
+v2 is designed on EmulationStation with maxSize for video and carasoul updates.  It also works on the udpated Screensaver OMX build by @pjft on Apr2017
 -Video and images will work properly on both VLC and OMX players. 
 -If running on an older of ES without maxSize.  Edit line 78 of comic_book.xml to <size>.
+-If running ES with carousel build, the games available should be in comic book font.  If not up to date, standard font will show.
 
 Fonts:
 Users can use any font they would like with the theme. Just copy your font to /etc/emulationstation/themes/ComicBook/art folder. 
@@ -34,6 +40,26 @@ Sounds:
 		</sound>
 XXXX = the name of the .wav file.  Add the .wav file to the art forlder for the system.
 
+Game Hacks Sytem views Available:
+- add the following to your roms foler and es_systems.cfg. The abbreviation letters should be the name of the rom folder and the name of the theme in the es_system.cfg Simply copy your roms from the regular system into tne roms folder and apply hacks.
+- gbh (game boy)
+- gbah (game boy advanced)
+- nesh (nes)
+- snesh (snes)
+- ggh (game gear)
+- genh (genesis)
+
+Example for es_systems.cfg - copied gba and modified <name>, <path>, <platform>, and <theme> to gbah
+<system>
+    <name>gbah</name>
+    <fullname>Game Boy Advance Hacks</fullname>
+    <path>/home/pi/RetroPie/roms/gbah</path>
+    <extension>.7z .gba .zip .7Z .GBA .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gba %ROM%</command>
+    <platform>gbah</platform>
+    <theme>gbah</theme>
+  </system>
+
 The theme is designed for use with video preview.  
 -The detail (Video View) will play the preview video "md_video" in the large black box.
 -Scraped art "md_image" wil be displayed in teh bottom gray box to the right of the video.
@@ -44,22 +70,47 @@ The theme is designed for use with video preview.
      (future update may include this change so that the small gray box contains wheel art or game logos)
 	 
 
-Original Systems in Theme:
+Systems in Theme:
 Aracde
 Atari 2600
+atari 5200
 Atari 7800
-NES
-SNES
-N64
-GB
-GBC
-GBA
-NDS
-Genesis
+atari lynx
+daphne
 Dreamcast
+Famicom
+GB
+Game Boy Hacks
+GBA
+Game Boy Advance Hacks
+GBC
+game gear
+Game Gear Hacks
+Genesis
+master system
+mega drive
+N64
+NDS
+neo geo
+NES
+ngp
+ngpc
+NES Hacks
+pc engine
 PSX
 PSP
 Retropie (menu)
+Sega 32X
+Sega CD
+Sega Genesis Hacks
+SG-1000
+SNES
+SNES Hacks
+Super Famicom
+Super Grafx
+Turbo Grafix 16
+Virtual Boy
+ZX Spectrum
 
 All other themes are set to work with a generic comic background to match the rest of the theme.  The system logo will be the standard logo from the Carbon Theme.  On the detailed view  They sytem logo will appear twice at the top of the screen.
 
@@ -91,11 +142,81 @@ v2.1 4-19-2017
 	launch sounds added to all sega systems
 	comic backgrounds updated for FB Alpha and all Mame systems to match the Arcade background for the time being.
 	Comic background updated for all sega systems to match sega genesis background for the time being.
-
+	
 v2.2 4-20-2017
 	Marquee conflict resolved
 		Added marquee back to comic_book.xml and moved off of screen.
 	md_image below controller centered.
+	
+v2.3 4-28-2017
+	sega cd border corrected
+	all backgrounds optimized to 720 resolution
+	removed all unused files from theme folders
+	optimized md image on video view to largest max size that will fit in the square area
+	Changed system info font to comic style font (will show as normal text in non updated systems)
+	Added the following systems:
+		atari 5200
+		atari lynx
+		daphne
+		Famicom
+		Game Boy Hacks
+		Game Boy Advance Hacks
+		game gear
+		Game Gear Hacks
+		master system
+		mega drive
+		neo geo
+		ngp
+		ngpc
+		NES Hacks
+		pc engine
+		Sega 32X
+		Sega CD
+		Sega Genesis Hacks
+		SG-1000
+		SNES Hacks
+		Super Famicom
+		Super Grafx
+		Turbo Grafix 16
+		Virtual Boy
+		ZX Spectrum
+		
+	Added the following system logos:
+		3DO
+		amstrac cpc
+		apple 2
+		atari st
+		atari lynx
+		atari 5200
+		c64
+		colecovision
+		daphne
+		famicon 
+		fds
+		game gear
+		game and watch
+		intellivision
+		kodi
+		master system
+		macintosh
+		msx
+		neo geo pocket
+		neo geo pocket color
+		odyssey2
+		pc (ms DOS)
+		pc-engine
+		sega 32x
+		sega CD
+		sg-1000
+		supergrafx
+		super famicom
+		turbo graphics 16
+		turbo graphics CD
+		vectrex
+		wonderswan
+		wonderswan color
+		zx specturm
+
 
 License
 =======

@@ -21,7 +21,7 @@ a<theme>
 		</image>
 		
 		<image name="logo">
-			<path>./art/system.svg</path>
+			<path>./art/system.png</path>
         </image>
 		
 	</view>
@@ -44,17 +44,21 @@ a<theme>
 		</image>
 		
 		<image name="logo3" extra="true">
-			<path>./art/system.svg</path>
+			<path>./art/system.png</path>
 			<pos>0.266 0.086</pos>
-			<maxSize>0.460 0.1</maxSize>
+			<maxSize>0.460 0.126</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 		
 		<image name="md_image">
-			<pos>0.918 0.53</pos>
-			<maxSize>0.127 0.149</maxSize>
+			<pos>0.918 0.525</pos>
+			<maxSize>0.127 0.17</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
+		
+		<sound name="launch">
+			<path>./art/Sega.wav</path>
+		</sound>
 		
 	</view>
 

@@ -1,6 +1,6 @@
 <!--
 Theme: ComicBook
-version: 1.0
+version: 2.3
 author: Kevin Thueringer (TMNTturtlguy)
 Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
@@ -19,6 +19,12 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<pos>0.030 0.942</pos>
 			<iconColor>7d7d7d</iconColor>
 		</helpsystem>
+		
+		<text name="systemInfo">
+			<color>000000</color>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+		</text>
 		
 		<image name="SystemBackground" extra="true">
 		</image>
