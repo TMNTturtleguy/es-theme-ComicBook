@@ -57,7 +57,7 @@ a<theme>
 		</image>
 		
 		<sound name="launch">
-			<path>./art/coin.wav</path>
+			<path>./art/wario.wav</path>
 		</sound>
 		
 	</view>

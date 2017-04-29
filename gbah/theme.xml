@@ -30,7 +30,7 @@ a<theme>
 		
 		<image name="logo">
 			<path>./art/system 3.svg</path>
-			<pos>0.74 0.086</pos>
+			<pos>0.75 0.086</pos>
 			<maxSize>0.26 0.1</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
@@ -57,7 +57,7 @@ a<theme>
 		</image>
 		
 		<sound name="launch">
-			<path>./art/coin.wav</path>
+			<path>./art/wario.wav</path>
 		</sound>
 		
 	</view>
