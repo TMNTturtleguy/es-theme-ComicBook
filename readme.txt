@@ -15,7 +15,7 @@ This theme is designed for 16:9 aspect ratio only.  It will work on small screen
 
 Theme is designed to be used with the slide transition.
 
-To run this theme smoothly with the slide tranistion you may need to change the VRAM up or Down depending on the version of your build and the number of systems.  Starting at V2.3 can now run 20+ systems without modifying VRAM.
+To run this theme smoothly with the slide tranistion. Due to Optimization, there are no issues with performance.  VRAM should be set to 100.
 
 v2 is designed on EmulationStation with maxSize for video and carasoul updates.  It also works on the udpated Screensaver OMX build by @pjft on Apr2017
 -Video and images will work properly on both VLC and OMX players. 
@@ -36,9 +36,9 @@ Sounds:
 - Some systems have launching sounds, for example NES plays a coin sound at launch.  To remove the launch sound, edit the theme.xml in the system folder within ComicBook Theme.
 - To add launch sound add this to the theme.xml for the system:
 		<sound name="launch">
-			<path>./art/XXXX.wav</path>
+			<path>./../art/XXXX.wav</path>
 		</sound>
-XXXX = the name of the .wav file.  Add the .wav file to the art forlder for the system.
+XXXX = the name of the .wav file.  Add the .wav file to the art forlder.
 
 Game Hacks Sytem views Available:
 - add the following to your roms foler and es_systems.cfg. The abbreviation letters should be the name of the rom folder and the name of the theme in the es_system.cfg Simply copy your roms from the regular system into tne roms folder and apply hacks.
@@ -66,16 +66,23 @@ The theme is designed for use with video preview.
 -YOU MUST HAVE AT LEAST 1 VIDEO in each systems gamelist in order for this to work.  If you do not have a video for a system YOU MUST:
 -If you do not have a video for a system: Open the theme.xml in the systems folder.  Delete lines 53-57 "md_image"  The bottom gray box will be blank, but the scraped art will appear full size in the large black box.
 -If you have at least 1 video, the scraped art "md_image" will appear in both the Large Black box and the small gray box for all games that are missing videos.
--Solution to issue: To solve this issue, change "md_image" on line 53 to "md_thumbnail"  add graphics to your gamelist for md_thumbnail.
-     (future update may include this change so that the small gray box contains wheel art or game logos)
 	 
 
 Systems in Theme:
+3D0
+amstrad pc
+apple 2
 Aracde
 Atari 2600
 atari 5200
 Atari 7800
 atari lynx
+atari st
+c64
+colecovision
+CPS I
+CPS II
+CPS III
 daphne
 Dreamcast
 Famicom
@@ -86,9 +93,13 @@ Game Boy Advance Hacks
 GBC
 game gear
 Game Gear Hacks
+Game and Watch
 Genesis
+intellisvion
+Kodi
 master system
 mega drive
+msx
 N64
 NDS
 neo geo
@@ -97,9 +108,11 @@ ngp
 ngpc
 NES Hacks
 pc engine
+ports
 PSX
 PSP
 Retropie (menu)
+scummvm
 Sega 32X
 Sega CD
 Sega Genesis Hacks
@@ -109,7 +122,10 @@ SNES Hacks
 Super Famicom
 Super Grafx
 Turbo Grafix 16
+vectrex
 Virtual Boy
+wonderswan
+wonderswan color
 ZX Spectrum
 
 All other themes are set to work with a generic comic background to match the rest of the theme.  The system logo will be the standard logo from the Carbon Theme.  On the detailed view  They sytem logo will appear twice at the top of the screen.
@@ -216,6 +232,58 @@ v2.3 4-28-2017
 		wonderswan
 		wonderswan color
 		zx specturm
+
+v2.4 5-
+	Feature tags added to comic_book.xml for carousel and video
+	Changed the border .SVG to .PNG to optimize the theme.
+	Corrected Master System System Logo
+	Corrected All Turbo Grafx system logos
+	changed snes logo to classic purple color scheme
+	Optimized the following backgrounds: Arcade, Atari Lynx, gbah, gb, genh, ggh, ngp, snesh 
+	Removed the letter a from line one of all theme files.
+	corrected the following logos (line of floating pixels removed) lynx, msx, wonderswan, vertex, Oddyssey2, macintosh, apple2, famicom, gbah, atari st, amiga, C64, 3D0, sg-100
+	   virtual boy, daphne, Kodi, game and watch, PC Engine, ZX Spectrum, sega 32X, sega cd, mame, fba, ports, neogeo, steam
+	Added new Systems:
+		cps1
+		cps2
+		cps3
+		capcom
+	Added following system logos
+		Atari 800
+		Atari Jaguar
+		AGS
+		bbc micro
+		Channel f
+		coco
+		desktop
+		dragon 32
+		oric
+		pce-cd
+		residual vm
+		saturn
+		stratagus
+		ti99
+		trs80
+		videopac
+		zmachine
+	Completed following Systems
+		3D0
+		amstrad cpc
+		apple 2
+		atari St
+		c64
+		colecovision
+		game and watch
+		intellivision
+		kodi
+		MSX
+		ports
+		vectrex
+		Wonderswan Colors
+		Wonderswan
+		
+		
+	
 
 
 License
