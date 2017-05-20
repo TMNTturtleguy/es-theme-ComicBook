@@ -9,8 +9,8 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 -->
 <theme>
     <formatVersion>3</formatVersion>
-
-	<view name="system">
+<!-- Helpsystem menu all views //-->
+	<view name="system, basic, detailed, video">
 
 		<helpsystem name="help">
 			<textColor>7d7d7d</textColor>
@@ -19,28 +19,46 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<pos>0.030 0.942</pos>
 			<iconColor>7d7d7d</iconColor>
 		</helpsystem>
-		
-		<text name="systemInfo">
-			<color>000000</color>
-			<fontPath>./art/Shaka_Pow.ttf</fontPath>
-			<fontSize>0.035</fontSize>
-		</text>
-		
-		<image name="SystemBackground" extra="true">
-		</image>
-
+	
 	</view>
+	
+	<view name="system">
+	</view>
+<!-- End Helpsystem menu all views //-->
+<!-- Carousel Feature //-->		
+	<feature supported="carousel">
 
-	<view name="basic">
+		<view name="system">
 
-		<image name="background" extra="true">
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<color>eeeeeecc</color>
+				<logoScale>1.5</logoScale>
+				<maxLogoCount>3</maxLogoCount>
+			</carousel>
+		
+			<text name="systemInfo">
+				<backgroundColor>eeeeeecc</backgroundColor>
+				<color>000000</color>
+				<fontPath>./art/Shaka_Pow.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+			</text>
+		
+		</view>
+	
+	</feature>
+<!-- End Carousel Feature //-->	
+<!-- Background & Gamelist All Views //-->		
+	<view name="basic, detailed, video">
+	
+		<image name="background">
 			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<path>./art/menu.png</path>
 		</image>
-
+		
 		<textlist name="gamelist">
 			<selectorColor>33333399</selectorColor>
 			<selectedColor>eeeeee</selectedColor>
@@ -56,14 +74,10 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
 		
-		<helpsystem name="help">
-			<textColor>7d7d7d</textColor>
-			<fontPath>./art/Shaka_Pow.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-			<pos>0.030 0.944</pos>
-			<iconColor>7d7d7d</iconColor>
-		</helpsystem>
-
+	</view>
+<!-- End Background & Gamelist All Views //-->
+<!-- View Specific Image Placement //-->
+	<view name="basic">
 	</view>
 
 	<view name="detailed">
@@ -76,43 +90,32 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 		
 	</view>
 	
-	<view name="video">
+	<feature supported="video">
 	
-		<video name="md_video">
-			<pos>0.67 0.4</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.3 0.408</maxSize>
-			<delay></delay>
-			<default></default>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<showSnapshotDelay>false</showSnapshotDelay>
-		</video>
-		
-		<image name="md_marquee">
-			<pos>1 1</pos>
-			<maxSize>0 0</maxSize>
-			<origin>0 0</origin>
-		</image>
-		
-	</view>
+		<view name="video">
 	
+			<video name="md_video">
+				<pos>0.67 0.4</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.3 0.408</maxSize>
+				<delay></delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+		
+			<image name="md_marquee">
+				<pos>1 1</pos>
+				<maxSize>0 0</maxSize>
+				<origin>0 0</origin>
+			</image>
+		
+		</view>
+		
+	</feature>
+<!-- End View Specific Image Placement //-->
+<!-- Meta Data //-->	
 	<view name="detailed, video">
-	
-		<image name="background">
-			<tile>false</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/menu.png</path>
-		</image>
-		
-		<helpsystem name="help">
-			<textColor>7d7d7d</textColor>
-			<fontPath>./art/Shaka_Pow.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-			<pos>0.030 0.944</pos>
-			<iconColor>7d7d7d</iconColor>
-		</helpsystem>
 
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
 			<color>000000</color>
@@ -204,45 +207,32 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<size>0.45 0.19</size>
 			<pos>0.525 0.746</pos>
 		</text>
-
-		<textlist name="gamelist">
-			<selectorColor>33333399</selectorColor>
-			<selectedColor>eeeeee</selectedColor>
-			<primaryColor>000000</primaryColor>
-			<secondaryColor>000000</secondaryColor>
-			<fontPath>./art/Shaka_Pow.ttf</fontPath>
-			<forceUppercase>1</forceUppercase>
-			<pos>0.014 0.18</pos>
-			<size>0.478 0.7495</size>
-			<alignment>center</alignment>
-			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.0335</fontSize>
-			<scrollSound>./art/scroll.wav</scrollSound>
-		</textlist>
-
+		
 		<image name="md_hidden">
-			<pos>0.823 0.700</pos>
+			<pos>0.7 0.942</pos>
 			<path>./art/hidden.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>000099</color>
+			<color>7d7d7d</color>
 		</image>
+		
 		<image name="md_kidgame">
-			<pos>0.883 0.700</pos>
+			<pos>0.75 0.942</pos>
 			<path>./art/kid.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>000099</color>
+			<color>7d7d7d</color>
 		</image>
+		
 		<image name="md_favorite">
-			<pos>0.940 0.700</pos>
+			<pos>0.8 0.942</pos>
 			<path>./art/favorite.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>000099</color>
+			<color>7d7d7d</color>
 		</image>
 
 	</view>
-
+<!-- End Meta Data //-->
 
 </theme>
