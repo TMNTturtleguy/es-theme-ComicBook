@@ -1,5 +1,4 @@
-Theme 'ComicBook' v2.3 - 04-29-2017 by TMNTturtlguy
-Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
+Theme 'ComicBook' v2.3 - 05-19-2017 by TMNTturtlguy
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 For use with EmulationStation (http://www.emulationstation.org/)
@@ -13,32 +12,14 @@ This theme is designed for 16:9 aspect ratio only.  It will work on small screen
 -it was noticed on some TV (LG HDTV) that the raspberry Pi picture is zoomed when the TV is set to 16:9.  Change the TV ratio to "list". All other Tv's work 16:9
 -To be sure the theme is displayed correctly, there should be a gray border around all sides of the theme.
 
-Theme is designed to be used with the slide transition.
+Thanks to new optimization and ES updates by @pjft there are no issues with performance.  VRAM should be set to 100.
 
-To run this theme smoothly with the slide tranistion you may need to change the VRAM up or Down depending on the version of your build and the number of systems.  Starting at V2.3 can now run 20+ systems without modifying VRAM.
+See UserModInstruct.txt for instructions on available user modifications.
 
 v2 is designed on EmulationStation with maxSize for video and carasoul updates.  It also works on the udpated Screensaver OMX build by @pjft on Apr2017
 -Video and images will work properly on both VLC and OMX players. 
 -If running on an older of ES without maxSize.  Edit line 78 of comic_book.xml to <size>.
 -If running ES with carousel build, the games available should be in comic book font.  If not up to date, standard font will show.
-
-Fonts:
-Users can use any font they would like with the theme. Just copy your font to /etc/emulationstation/themes/ComicBook/art folder. 
-
-Gamelist Font Size:
-To change the font size of the Gamelist, open the "ComicBook.xml" with a text editor, look for the tag <gamelist> and find a tag inside called <fontSize>. The original value is 0.03. A small change makes a big difference in size. If you want smaller gamelist names, try 0.02. If you want larger, try 0.04. You can even go further by trying 0.015.
-
-Colors:
-To change the colors open ComicBook.xml with a text editor. Choose a color and find it's hexidecimal value. Some examples are found in the carbon.xml file. Find all occurances of "8b0000" and replace them with your chosen color. Such as Orange: ef710b. Save the carbon.xml and exit. To change the color to another color after the first change, search for your old color, and replace it with a new one.
-
-Sounds:
-- To change the sound effect, replace /art/scroll.wav with what ever WAV file you would like. ComicBook theme will play what ever is called "scroll.wav" in the /art folder.
-- Some systems have launching sounds, for example NES plays a coin sound at launch.  To remove the launch sound, edit the theme.xml in the system folder within ComicBook Theme.
-- To add launch sound add this to the theme.xml for the system:
-		<sound name="launch">
-			<path>./art/XXXX.wav</path>
-		</sound>
-XXXX = the name of the .wav file.  Add the .wav file to the art forlder for the system.
 
 Game Hacks Sytem views Available:
 - add the following to your roms foler and es_systems.cfg. The abbreviation letters should be the name of the rom folder and the name of the theme in the es_system.cfg Simply copy your roms from the regular system into tne roms folder and apply hacks.
@@ -48,6 +29,12 @@ Game Hacks Sytem views Available:
 - snesh (snes)
 - ggh (game gear)
 - genh (genesis)
+
+Capcom Systems Available (copy your arcade system from es_systems.cfg)
+- cps1
+- cps2
+- cps3
+- capcom
 
 Example for es_systems.cfg - copied gba and modified <name>, <path>, <platform>, and <theme> to gbah
 <system>
@@ -62,22 +49,40 @@ Example for es_systems.cfg - copied gba and modified <name>, <path>, <platform>,
 
 The theme is designed for use with video preview.  
 -The detail (Video View) will play the preview video "md_video" in the large black box.
--Scraped art "md_image" wil be displayed in teh bottom gray box to the right of the video.
+-Scraped art "md_image" wil be displayed in the bottom gray box to the right of the video.
 -YOU MUST HAVE AT LEAST 1 VIDEO in each systems gamelist in order for this to work.  If you do not have a video for a system YOU MUST:
--If you do not have a video for a system: Open the theme.xml in the systems folder.  Delete lines 53-57 "md_image"  The bottom gray box will be blank, but the scraped art will appear full size in the large black box.
+-If you do not have a video for a system: Open the theme.xml in the systems folder.  Delete lines for "md_image"  The bottom gray box will be blank, but the scraped art will appear full size in the large black box.
 -If you have at least 1 video, the scraped art "md_image" will appear in both the Large Black box and the small gray box for all games that are missing videos.
--Solution to issue: To solve this issue, change "md_image" on line 53 to "md_thumbnail"  add graphics to your gamelist for md_thumbnail.
-     (future update may include this change so that the small gray box contains wheel art or game logos)
+
+The theme is optimized for 2D Box Art and Screenshots - 3D boxart will work, however it may not fill the designated area.
 	 
 
 Systems in Theme:
+3DO
+AGS
+amiga
+amstrad pc
+apple 2
 Aracde
+atari 800
 Atari 2600
 atari 5200
 Atari 7800
+atari jaguar
 atari lynx
+atari st
+bbc micro
+c64
+capcom
+channel f
+coco (tandy)
+colecovision
+CPS I (cps1)
+CPS II (cps2)
+CPS III (cps3)
 daphne
 Dreamcast
+dragon 32
 Famicom
 GB
 Game Boy Hacks
@@ -86,30 +91,50 @@ Game Boy Advance Hacks
 GBC
 game gear
 Game Gear Hacks
+Game and Watch
 Genesis
+intellisvion
+Kodi
+macintosh
 master system
 mega drive
+msdos
+msx
 N64
 NDS
 neo geo
 NES
+NES Hacks
 ngp
 ngpc
-NES Hacks
+odyssey2
+oric
 pc engine
-PSX
+pce-cd
+ports
 PSP
+PSX
+residualVM
 Retropie (menu)
+saturn
+scummvm
 Sega 32X
 Sega CD
 Sega Genesis Hacks
 SG-1000
+steam
+stratagus
 SNES
 SNES Hacks
 Super Famicom
 Super Grafx
 Turbo Grafix 16
+Turbo Grafix CD
+vectrex
+videopac
 Virtual Boy
+wonderswan
+wonderswan color
 ZX Spectrum
 
 All other themes are set to work with a generic comic background to match the rest of the theme.  The system logo will be the standard logo from the Carbon Theme.  On the detailed view  They sytem logo will appear twice at the top of the screen.
@@ -216,6 +241,58 @@ v2.3 4-28-2017
 		wonderswan
 		wonderswan color
 		zx specturm
+
+v2.4 5-
+	Feature tags added to comic_book.xml for carousel and video
+	Changed the border .SVG to .PNG to optimize the theme.
+	Added Comic Rip Mascot
+	Corrected Master System System Logo
+	Corrected All Turbo Grafx system logos
+	changed snes logo to classic purple color scheme
+	Optimized the following backgrounds: Arcade, Atari Lynx, gbah, gb, genh, ggh, ngp, snesh 
+	Removed the letter a from line one of all theme files.
+	corrected the following logos (line of floating pixels removed) lynx, msx, wonderswan, vertex, Oddyssey2, macintosh, apple2, famicom, gbah, atari st, amiga, C64, 3D0, sg-100
+	   virtual boy, daphne, Kodi, game and watch, PC Engine, ZX Spectrum, sega 32X, sega cd, mame, fba, ports, neogeo, steam
+	Added new Systems:
+		cps1
+		cps2
+		cps3
+		capcom
+	Completed following Systems
+		3D0
+		amstrad cpc
+		apple 2
+		Atari 800
+		Atari Jaguar
+		atari St
+		AGS
+		bbc micro
+		c64
+		Channel f
+		colecovision
+		coco
+		desktop
+		dragon 32
+		game and watch
+		intellivision
+		kodi
+		MSX
+		oric
+		pce-cd
+		ports
+		residual vm
+		saturn
+		stratagus
+		ti99
+		trs80
+		videopac
+		vectrex
+		Wonderswan Colors
+		Wonderswan
+		zmachine
+		
+		
+	
 
 
 License
