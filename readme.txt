@@ -1,4 +1,4 @@
-Theme 'ComicBook' v2.3 - 05-19-2017 by TMNTturtlguy
+Theme 'ComicBook' v2.5 - 05-21-2017 by TMNTturtlguy
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 For use with EmulationStation (http://www.emulationstation.org/)
@@ -50,8 +50,6 @@ Example for es_systems.cfg - copied gba and modified <name>, <path>, <platform>,
 The theme is designed for use with video preview.  
 -The detail (Video View) will play the preview video "md_video" in the large black box.
 -Scraped art "md_image" wil be displayed in the bottom gray box to the right of the video.
--YOU MUST HAVE AT LEAST 1 VIDEO in each systems gamelist in order for this to work.  If you do not have a video for a system YOU MUST:
--If you do not have a video for a system: Open the theme.xml in the systems folder.  Delete lines for "md_image"  The bottom gray box will be blank, but the scraped art will appear full size in the large black box.
 -If you have at least 1 video, the scraped art "md_image" will appear in both the Large Black box and the small gray box for all games that are missing videos.
 
 The theme is optimized for 2D Box Art and Screenshots - 3D boxart will work, however it may not fill the designated area.
@@ -290,7 +288,10 @@ v2.4 5-
 		Wonderswan Colors
 		Wonderswan
 		zmachine
-		
+
+v2.5	5-21-17
+		Modified detailed view so image will show in black box properly.
+		updated github so that extra files have been removed from download.
 		
 	
 
