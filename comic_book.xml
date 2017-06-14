@@ -1,8 +1,7 @@
 <!--
 Theme: ComicBook
-version: 2.5
+version: 2.6
 author: Kevin Thueringer (TMNTturtlguy)
-Theme File Structure based on "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 
@@ -65,7 +64,7 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<primaryColor>000000</primaryColor>
 			<secondaryColor>000000</secondaryColor>
 			<fontPath>./art/Shaka_Pow.ttf</fontPath>
-			<forceUppercase>1</forceUppercase>
+			<forceUppercase>0</forceUppercase>
 			<pos>0.014 0.18</pos>
 			<size>0.478 0.7495</size>
 			<alignment>center</alignment>
@@ -83,8 +82,8 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 	<view name="detailed">
 
 		<image name="md_image">
-			<pos>0.67 0.4</pos>
-			<maxSize>0.3 0.408</maxSize>
+			<pos>0.672 0.4</pos>
+			<maxSize>0.32 0.42</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 		
@@ -95,9 +94,9 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 		<view name="video">
 	
 			<video name="md_video">
-				<pos>0.67 0.4</pos>
+				<pos>0.672 0.4</pos>
 				<origin>0.5 0.5</origin>
-				<maxSize>0.3 0.408</maxSize>
+				<maxSize>0.32 0.42</maxSize>
 				<delay></delay>
 				<default></default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
@@ -123,7 +122,7 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 <!-- Meta Data //-->	
 	<view name="detailed, video">
 
-		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
 			<color>000000</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Shaka_Pow.ttf</fontPath>

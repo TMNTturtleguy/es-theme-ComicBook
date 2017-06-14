@@ -1,4 +1,4 @@
-Theme 'ComicBook' v2.5 - 05-21-2017 by TMNTturtlguy
+Theme 'ComicBook' v2.6 - 06-13-2017 by TMNTturtlguy
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 For use with EmulationStation (http://www.emulationstation.org/)
@@ -7,6 +7,7 @@ Special thanks to all who helped:
 - modmaster - for helping create additional system backgrounds
 - pjft - for all the support throughout the build, testing, and work on the pixel effect
 - Nismo - for all of the testing, input, and suggested improvements
+- Ruckage - for updating font characters to support multiple languages.
 
 This theme is designed for 16:9 aspect ratio only.  It will work on small screens and is tested to work on up to 55" 4K HDTV with excelent quality
 -it was noticed on some TV (LG HDTV) that the raspberry Pi picture is zoomed when the TV is set to 16:9.  Change the TV ratio to "list". All other Tv's work 16:9
@@ -36,6 +37,25 @@ Capcom Systems Available (copy your arcade system from es_systems.cfg)
 - cps3
 - capcom
 
+Custom Systems Available
+- All Games (all games)
+- Batman (batman)
+- Beat'em Up (btmups)
+- Favorites (favorites)
+- Fighting (fighting)
+- Kids (kids)
+- Last Played (last played)
+- Light Gun (lightgun)
+- Mario (mario)
+- Mega Man (mega man)
+- Racing (racing)
+- Shoot'em Up (shmups)
+- Sonic (sonic)
+- Sports (sports)
+- TMNT (tmnt)
+- Trackball (trackball)
+
+
 Example for es_systems.cfg - copied gba and modified <name>, <path>, <platform>, and <theme> to gbah
 <system>
     <name>gbah</name>
@@ -58,6 +78,7 @@ The theme is optimized for 2D Box Art and Screenshots - 3D boxart will work, how
 Systems in Theme:
 3DO
 AGS
+All Games
 amiga
 amstrad pc
 apple 2
@@ -69,7 +90,9 @@ Atari 7800
 atari jaguar
 atari lynx
 atari st
+Batman
 bbc micro
+Beat'em Up
 c64
 capcom
 channel f
@@ -82,6 +105,8 @@ daphne
 Dreamcast
 dragon 32
 Famicom
+Favorites
+Fighting
 GB
 Game Boy Hacks
 GBA
@@ -90,14 +115,20 @@ GBC
 game gear
 Game Gear Hacks
 Game and Watch
+GC
 Genesis
 intellisvion
+Kids
 Kodi
+Light Gun
 macintosh
+Mario
 master system
 mega drive
+Mega Man
 msdos
 msx
+msx2
 N64
 NDS
 neo geo
@@ -111,7 +142,10 @@ pc engine
 pce-cd
 ports
 PSP
+PSPminis
 PSX
+PS2
+Racing
 residualVM
 Retropie (menu)
 saturn
@@ -120,17 +154,24 @@ Sega 32X
 Sega CD
 Sega Genesis Hacks
 SG-1000
-steam
-stratagus
+Shoot'em up
 SNES
 SNES Hacks
+Sonic
+Sports
+steam
+stratagus
 Super Famicom
 Super Grafx
+TMNT
+Trackball
 Turbo Grafix 16
 Turbo Grafix CD
 vectrex
 videopac
 Virtual Boy
+Wii
+WiiU
 wonderswan
 wonderswan color
 ZX Spectrum
@@ -292,8 +333,38 @@ v2.4 5-
 v2.5	5-21-17
 		Modified detailed view so image will show in black box properly.
 		updated github so that extra files have been removed from download.
-		
-	
+
+v2.6	6-13-17
+		Changed Comic Rip for Sega CD and Sega 32X
+		Corrected Channel F controller in system background
+		Renamed trs80 to trs-80 to match es_systems.cfg
+		Updated font to allow special characters for different languages - Thank you to Ruckage for supplying the font!
+		Updated size of video and image in black box
+		Updated to better support detailed view
+		Update for colors support for ratings
+		Added the following Themes:
+			- All Games
+			- Batman
+			- Beat'em Up
+			- Favorites
+			- Fighting
+			- Gamecube
+			- Kids
+			- Last Played
+			- Light Gun
+			- Mario
+			- Mega Man
+			- MSX2
+			- PS2
+			- PSP Minis
+			- Racing
+			- Shoot'em Up
+			- Sonic
+			- Sports
+			- TMNT
+			- Trackball
+			- Wii
+			- WiiU
 
 
 License

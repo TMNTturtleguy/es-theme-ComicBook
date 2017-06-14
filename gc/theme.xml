@@ -21,7 +21,7 @@
 		</image>
 		
 		<image name="logo">
-			<path>./art/system.svg</path>
+			<path>./art/system.png</path>
         </image>
 		
 	</view>
@@ -29,18 +29,10 @@
 	<view name="basic, detailed, video">
 		
 		<image name="logo">
-			<path>./art/system.svg</path>
+			<path>./art/system.png</path>
 			<pos>0.266 0.086</pos>
 			<maxSize>0.460 0.126</maxSize>
 			<origin>0.5 0.5</origin>
-		</image>
-		
-		<image name="controller" extra="false">
-			<path>./art/controller.svg</path>
-			<pos>0.918 0.29</pos>
-			<maxSize>0.29 0.13</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>ffffff</color>
 		</image>
 		
 		<image name="classic_logo" extra="true">
@@ -51,7 +43,7 @@
 		</image>
 		
 		<image name="comic_rip" extra="true">
-			<path>./../art/rip/mario3D.png</path>
+			<path>./../art/rip/luigi.png</path>
 			<pos>0.918 0.25</pos>
 			<maxSize>0.32 0.32</maxSize>
 			<origin>0.5 0.5</origin>
