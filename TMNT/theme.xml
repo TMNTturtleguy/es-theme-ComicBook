@@ -58,7 +58,7 @@
 		</image>
 		
 		<sound name="launch">
-			<path>./../art/cowabunga.wav</path>
+			<path>./../art/cowabunga.mp3</path>
 		</sound>
 
 	</view>
