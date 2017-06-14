@@ -57,10 +57,6 @@
 			<origin>0.5 0.5</origin>
 		</image>
 		
-		<sound name="launch">
-			<path>./../art/batman.wav</path>
-		</sound>
-		
 	</view>
 
 	<view name="basic">		
