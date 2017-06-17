@@ -57,12 +57,6 @@
 			<origin>0.5 0.5</origin>
 		</image>
 		
-		<image name="md_image">
-			<pos>0.918 0.53</pos>
-			<maxSize>0.127 0.149</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-		
 		<sound name="launch">
 			<path>./../art/coin.wav</path>
 		</sound>
