@@ -63,7 +63,7 @@ Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 			<selectedColor>eeeeee</selectedColor>
 			<primaryColor>000000</primaryColor>
 			<secondaryColor>000000</secondaryColor>
-			<fontPath>./art/ShakaPow-gamelist.ttf</fontPath>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
 			<forceUppercase>0</forceUppercase>
 			<pos>0.014 0.18</pos>
 			<size>0.478 0.7495</size>
