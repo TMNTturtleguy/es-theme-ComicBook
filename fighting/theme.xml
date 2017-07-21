@@ -51,7 +51,7 @@
 		</image>
 		
 		<image name="comic_rip" extra="true">
-			<path>./../art/rip/fighting.png</path>
+			<path>./../art/rip/fighting2.png</path>
 			<pos>0.918 0.25</pos>
 			<maxSize>0.32 0.32</maxSize>
 			<origin>0.5 0.5</origin>
