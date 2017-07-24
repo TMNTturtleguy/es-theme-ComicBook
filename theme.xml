@@ -35,9 +35,9 @@
 	<view name="basic, detailed, video">
 		
 		<text name="logoText">
-			<pos>0.266 0.086</pos>
+			<pos>0.025 0.01</pos>
 			<size>0.460 0.126</size>
-			<fontSize>0.12</fontSize>
+			<fontSize>0.11</fontSize>
 			<fontPath>./art/Shaka_Pow.ttf</fontPath>
 			<color>000000</color>
 			<forceUppercase>false</forceUppercase>
