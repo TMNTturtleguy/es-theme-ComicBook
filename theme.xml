@@ -50,7 +50,7 @@
 			<origin>0.5 0.5</origin>
 		</image>
 		
-		<image name="controller" extra="true">
+		<image name="controller" extra="false">
 			<path>./custom-collection/art/controller.png</path>
 			<pos>0.918 0.29</pos>
 			<maxSize>0.29 0.13</maxSize>
