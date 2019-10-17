@@ -5,6 +5,7 @@ For use with EmulationStation (http://www.emulationstation.org/)
 
 Special thanks to all who helped:
 - modmaster - for helping create additional system backgrounds
+- holy2tack - for creating several collection themes
 - pjft - for all the support throughout the build, testing, and work on the pixel effect
 - Nismo - for all of the testing, input, and suggested improvements
 - Ruckage - for updating font characters to support multiple languages.
