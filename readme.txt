@@ -36,23 +36,41 @@ Capcom Systems Available (copy your arcade system from es_systems.cfg)
 - cps1
 - cps2
 - cps3
-- capcom
 
 Custom Systems Available
-- All Games (all games)
+- Adventure Game Studio (ags)
+- All Games (auto-allgames)
+- Arcade (arcade)
 - Batman (batman)
 - Beat'em Up (btmups)
-- Favorites (favorites)
+- Breath of Fire (breathoffire)
+- Capcom (capcom)
+- Chrono Trigger (chrono)
+- Crash Bandicoot (chrashbandicoot)
+- Donkey Kong (donkeykong)
+- Favorites (auto-favorites)
 - Fighting (fighting)
+- Final Fantasy (finalfantasy)
+- Fire Emblem (fireemblem)
 - Kids (kids)
-- Last Played (last played)
+- Kirby (kirby)
+- Kodi (kodi)
+- Last Played (auto-lastplayed)
+- Legend of Zelda, The (zelda)
 - Light Gun (lightgun)
 - Mario (mario)
-- Mega Man (mega man)
+- Mega Man (megaman)
+- Metroid (metroid)
+- Pokemon (pokemon)
+- Ports (ports)
 - Racing (racing)
+- Retropie Menu (retropie)
+- Secret of Mana (secretofmana)
 - Shoot'em Up (shmups)
 - Sonic (sonic)
+- Spyro (spyro)
 - Sports (sports)
+- Tales of (tales)
 - TMNT (tmnt)
 - Trackball (trackball)
 
@@ -77,105 +95,76 @@ The theme is optimized for 2D Box Art and Screenshots - 3D boxart will work, how
 	 
 
 Systems in Theme:
-3DO
-AGS
-All Games
+3do
 amiga
 amstrad pc
-apple 2
-Aracde
-atari 800
-Atari 2600
-atari 5200
-Atari 7800
-atari jaguar
-atari lynx
-atari st
-Batman
+apple2
+atari800
+atari2600
+atari5200
+atari7800
+atarijaguar
+atarilynx
+atarist
 bbc micro
-Beat'em Up
 c64
-capcom
-channel f
+channelf
 coco (tandy)
 colecovision
-CPS I (cps1)
-CPS II (cps2)
-CPS III (cps3)
 daphne
-Dreamcast
-dragon 32
-Famicom
-Favorites
-Fighting
-GB
-Game Boy Hacks
-GBA
-Game Boy Advance Hacks
-GBC
-game gear
-Game Gear Hacks
-Game and Watch
-GC
-Genesis
+dreamcast
+dragon32
+famicom
+fds
+gb
+gba
+gbc
+gamegear
+gameandwatch
+gc
+genesis
 intellisvion
-Kids
-Kodi
-Light Gun
 macintosh
-Mario
-master system
-mega drive
-Mega Man
+mastersystem
+megadrive
 msdos
 msx
 msx2
-N64
-NDS
-neo geo
-NES
-NES Hacks
+n64
+nds
+neogeo
+nes
 ngp
 ngpc
 odyssey2
 oric
-pc engine
+pcengine
 pce-cd
-ports
-PSP
-PSPminis
-PSX
-PS2
-Racing
-residualVM
-Retropie (menu)
+psp
+pspminis
+psx
+ps2
+residualvm
 saturn
 scummvm
-Sega 32X
-Sega CD
-Sega Genesis Hacks
-SG-1000
-Shoot'em up
-SNES
-SNES Hacks
-Sonic
-Sports
+sega32x
+segacd
+sfc
+sg-1000
+snes
 steam
 stratagus
-Super Famicom
-Super Grafx
-TMNT
-Trackball
-Turbo Grafix 16
-Turbo Grafix CD
+supergrafx
+turbografix16
+turbografixcd
 vectrex
 videopac
-Virtual Boy
-Wii
-WiiU
+virtualboy
+wii
+wiiu
 wonderswan
-wonderswan color
-ZX Spectrum
+wonderswancolor
+zxspectrum
 
 All other themes are set to work with a generic comic background to match the rest of the theme.  The system logo will be the standard logo from the Carbon Theme.  On the detailed view the system logo will appear twice at the top of the screen.
 
