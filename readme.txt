@@ -10,21 +10,21 @@ Special thanks to all who helped:
 - Nismo - for all of the testing, input, and suggested improvements
 - Ruckage - for updating font characters to support multiple languages.
 
-This theme is designed for 16:9 aspect ratio only.  It will work on small screens and is tested to work on up to 55" 4K HDTV with excelent quality
--it was noticed on some TV (LG HDTV) that the raspberry Pi picture is zoomed when the TV is set to 16:9.  Change the TV ratio to "list". All other Tv's work 16:9
+This theme is designed for 16:9 aspect ratio only.  It will work on small screens and is tested to work on up to 55" 4K HDTV with excellent quality
+-it was noticed on some TV (LG HDTV) that the raspberry Pi picture is zoomed when the TV is set to 16:9.  Change the TV ratio to "list". All other TV's work 16:9
 -To be sure the theme is displayed correctly, there should be a gray border around all sides of the theme.
 
 Thanks to new optimization and ES updates by @pjft there are no issues with performance.  VRAM should be set to 100.
 
 See UserModInstruct.txt for instructions on available user modifications.
 
-v2 is designed on EmulationStation with maxSize for video and carasoul updates.  It also works on the udpated Screensaver OMX build by @pjft on Apr2017
+v2 is designed on EmulationStation with maxSize for video and carousel updates.  It also works on the updated Screensaver OMX build by @pjft on Apr2017
 -Video and images will work properly on both VLC and OMX players. 
 -If running on an older of ES without maxSize.  Edit line 78 of comic_book.xml to <size>.
 -If running ES with carousel build, the games available should be in comic book font.  If not up to date, standard font will show.
 
-Game Hacks Sytem views Available:
-- add the following to your roms foler and es_systems.cfg. The abbreviation letters should be the name of the rom folder and the name of the theme in the es_system.cfg Simply copy your roms from the regular system into tne roms folder and apply hacks.
+Game Hacks System views Available:
+- add the following to your roms folder and es_systems.cfg. The abbreviation letters should be the name of the rom folder and the name of the theme in the es_system.cfg Simply copy your roms from the regular system into the roms folder and apply hacks.
 - gbh (game boy)
 - gbah (game boy advanced)
 - nesh (nes)
@@ -70,7 +70,7 @@ Example for es_systems.cfg - copied gba and modified <name>, <path>, <platform>,
 
 The theme is designed for use with video preview.  
 -The detail (Video View) will play the preview video "md_video" in the large black box.
--Scraped art "md_image" wil be displayed in the bottom gray box to the right of the video.
+-Scraped art "md_image" will be displayed in the bottom gray box to the right of the video.
 -If you have at least 1 video, the scraped art "md_image" will appear in both the Large Black box and the small gray box for all games that are missing videos.
 
 The theme is optimized for 2D Box Art and Screenshots - 3D boxart will work, however it may not fill the designated area.
@@ -177,7 +177,7 @@ wonderswan
 wonderswan color
 ZX Spectrum
 
-All other themes are set to work with a generic comic background to match the rest of the theme.  The system logo will be the standard logo from the Carbon Theme.  On the detailed view  They sytem logo will appear twice at the top of the screen.
+All other themes are set to work with a generic comic background to match the rest of the theme.  The system logo will be the standard logo from the Carbon Theme.  On the detailed view the system logo will appear twice at the top of the screen.
 
 
 Changelog
