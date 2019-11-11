@@ -49,6 +49,10 @@
 			<origin>0.5 0.5</origin>
 		</image>
 
+    <sound name="launch">
+      <path>./launch.wav</path>
+    </sound>
+
 	</view>
 
 	<view name="basic">
