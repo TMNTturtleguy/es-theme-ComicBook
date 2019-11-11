@@ -414,51 +414,12 @@ v3.0  XX-XX-19
     - Tactics Ogre
     - Tales of Series
 
+    Added Themes:
+    - Banjo Kazooie
 
-WIP - Trying to figure out how to silence an annoying WARNING message in the logs
-WIP - Created a "Template" Theme for anyone who wants to help create a new theme
-WIP - Added/Updated menu sounds
-WIP - Upscaled all 720p art to 1080p
-WIP - Created Issues/Theme Requests on the github page for each theme requested by users on the forum.
-  satella view
-  sufami turbo
-  neogeocd
-  pokemini
-  N64-DD
-
-  Animal Crossing
-  Ape Escape
-  Banjo-Kazooie
-  Bomberman
-  Castlevania
-  Custom Robo
-  DarkStalkers
-  Devil May Cry
-  Dot Hack
-  Dragon Quest
-  F-zero
-  Famicom Wars / Advance Wars
-  Gauntlet
-  God of War
-  Golden Axe
-  Golden Sun
-  Harvest Moon
-  Jak and Daxter
-  Kingdom Hearts
-  Lunar
-  Metal Gear Solid
-  Mother
-  Phantasy Star
-  Pheonix Wright
-  Prince of Persia
-  Professor Layton
-  Punch Out
-  Ratchet and Clank
-  Rayman
-  Shining Force
-  Star Fox
-  Star Ocean
-  Xeno
+    Work-in-Progress
+    - More Themes to Come
+    - Upscale older images for Raspberry Pi 4 and Windows Machines
 
 License
 =======
