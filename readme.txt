@@ -1,8 +1,12 @@
 Theme 'ComicBook' by TMNTturtlguy
-Update 3.0 - XX-XX-2019 by Zenjiro
+Update 3.0 - 11-11-2019 by Zenjiro
 Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
 Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
 For use with EmulationStation (http://www.emulationstation.org/)
+
+Recommended Forks:
+fabricecaruso (https://github.com/fabricecaruso/EmulationStation/releases)
+jrassa        (https://github.com/jrassa/EmulationStation/releases)
 
 Special thanks to all who helped:
 - modmaster - for helping create additional system backgrounds
@@ -249,7 +253,7 @@ v2.3 4-28-2017
 		c64
 		colecovision
 		daphne
-		famicon
+		famicom
 		fds
 		game gear
 		game and watch
