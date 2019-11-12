@@ -364,13 +364,15 @@ v2.6	6-13-17
 			- Wii
 			- WiiU
 
-v3.0  XX-XX-19
+v3.0  11-11-19
     Over 2 years and still one of the best looking themes.
     Think of this v3.0 release as an overhaul release.
-    This is a fork of TMNTturtleguy's 16:9 version of ComicBook Theme. I do not plan on doing anything with the 4:3 variant. I might look into the Special Edition Wheelart version.
-    HIGHLY RECOMMEND: That you do NOT overwrite your old 'comicbook' theme folder with this one. Many of the files and directories have changed or been relocated.
+    This is a fork of TMNTturtleguy's 16:9 version of ComicBook Theme. I do not plan on doing anything with the 4:3 variant.
+    HIGHLY RECOMMEND: That you do NOT overwrite your old 'comicbook' theme folder with this one.
+    Many of the files and directories have changed or been relocated.
     Biggest change is to the directory structure. There is no longer an 'art' folder in each of the theme's directory.
-    The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme. All one has to do is create a folder and placing a few key files in it.
+    The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme.
+    All one has to do is create a folder and placing a few key files in it.
     All you need, is to place your own comic.png and system.png image files in the folder, and copy the theme.xml from the 'template' theme folder.
     You can also add a comic_rip.png, and launch.wav in the same folder to make a dynamic and immersive experience.
 
@@ -390,8 +392,9 @@ v3.0  XX-XX-19
 
     Added the following:
     - The 'template' theme
-      - This theme folder contains a blank theme. It was created as a guide for those who wish to create a new collections or system theme.
-    - All comic_rip images, launch sound files, etc where added and properly named in the '_assets' folder. This is for others who wish to use any in creation of other themes
+      - This theme folder contains a blank theme. It was created as a guide for those who wish to create new collection or system themes.
+      - There is also a 7z archive containing tutorials on how to create certain images and assets for this project.
+    - All comic_rip images, launch sound files, etc where added and properly named in the '_assets' folder.
     - Added TMNTturtleguy's Adobe Photoshop .psd and .ai template files to the '_assets' folder.
 
 
