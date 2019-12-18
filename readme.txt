@@ -331,127 +331,127 @@ v2.4 5-
 		zmachine
 
 v2.5	5-21-17
-		Modified detailed view so image will show in black box properly.
-		updated github so that extra files have been removed from download.
+	Modified detailed view so image will show in black box properly.
+	updated github so that extra files have been removed from download.
 
 v2.6	6-13-17
-		Changed Comic Rip for Sega CD and Sega 32X
-		Corrected Channel F controller in system background
-		Renamed trs80 to trs-80 to match es_systems.cfg
-		Updated font to allow special characters for different languages - Thank you to Ruckage for supplying the font!
-		Updated size of video and image in black box
-		Updated to better support detailed view
-		Update for colors support for ratings
-		Added the following Themes:
-			- All Games
-			- Batman
-			- Beat'em Up
-			- Favorites
-			- Fighting
-			- Gamecube
-			- Kids
-			- Last Played
-			- Light Gun
-			- Mario
-			- Mega Man
-			- MSX2
-			- PS2
-			- PSP Minis
-			- Racing
-			- Shoot'em Up
-			- Sonic
-			- Sports
-			- TMNT
-			- Trackball
-			- Wii
-			- WiiU
+	Changed Comic Rip for Sega CD and Sega 32X
+	Corrected Channel F controller in system background
+	Renamed trs80 to trs-80 to match es_systems.cfg
+	Updated font to allow special characters for different languages - Thank you to Ruckage for supplying the font!
+	Updated size of video and image in black box
+	Updated to better support detailed view
+	Update for colors support for ratings
+	Added the following Themes:
+		- All Games
+		- Batman
+		- Beat'em Up
+		- Favorites
+		- Fighting
+		- Gamecube
+		- Kids
+		- Last Played
+		- Light Gun
+		- Mario
+		- Mega Man
+		- MSX2
+		- PS2
+		- PSP Minis
+		- Racing
+		- Shoot'em Up
+		- Sonic
+		- Sports
+		- TMNT
+		- Trackball
+		- Wii
+		- WiiU
 
 v3.0  	11-11-19
-		Over 2 years and still one of the best looking themes.
-		Think of this v3.0 release as an overhaul release.
-		This is a fork of TMNTturtleguy's 16:9 version of ComicBook Theme. I do not plan on doing anything with the 4:3 variant.
-		HIGHLY RECOMMEND: That you do NOT overwrite your old 'comicbook' theme folder with this one.
-		Many of the files and directories have changed or been relocated.
-		Biggest change is to the directory structure. There is no longer an 'art' folder in each of the theme's directory.
-		The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme.
-		All one has to do is create a folder and placing a few key files in it.
-		All you need, is to place your own comic.png and system.png image files in the folder, and copy the theme.xml from the 'template' theme folder.
-		You can also add a comic_rip.png, and launch.wav in the same folder to make a dynamic and immersive experience.
+	Over 2 years and still one of the best looking themes.
+	Think of this v3.0 release as an overhaul release.
+	This is a fork of TMNTturtleguy's 16:9 version of ComicBook Theme. I do not plan on doing anything with the 4:3 variant.
+	HIGHLY RECOMMEND: That you do NOT overwrite your old 'comicbook' theme folder with this one.
+	Many of the files and directories have changed or been relocated.
+	Biggest change is to the directory structure. There is no longer an 'art' folder in each of the theme's directory.
+	The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme.
+	All one has to do is create a folder and placing a few key files in it.
+	All you need, is to place your own comic.png and system.png image files in the folder, and copy the theme.xml from the 'template' theme folder.
+	You can also add a comic_rip.png, and launch.wav in the same folder to make a dynamic and immersive experience.
 
-		Changed the following:
-		- Simplified directory structure. All contents in the 'art' folder in each theme have been moved to the parent's folder.
-		- The 'art' folder was renamed to '_assets'
-		- Theme 'TMNT' was renamed to 'tmnt'
-		- Renamed all 'system 3' image files to 'bannerlogo'
-		- All 'rip' images were renamed to 'comic_rip'
-		- All 'comic_rip' images were moved to their respective theme folders
-		- All 'launch' sound files were moved to their respective theme folders and renamed to 'launch.wav'
-		- Removed 'misc' theme, 'Template' replaces this theme
-		- Removed 'love' theme, 'Favorites' replaces this theme
-		- Removed 'tg16cd' theme, it was identical to 'tg-cd'theme
-		- Many aracde themes such as, 'arcade', 'mame', 'mame4all', etc had their bannerlogo turned on. It was previously off.
-		- Renamed 'coco' theme to 'tandy'
+	Changed the following:
+	- Simplified directory structure. All contents in the 'art' folder in each theme have been moved to the parent's folder.
+	- The 'art' folder was renamed to '_assets'
+	- Theme 'TMNT' was renamed to 'tmnt'
+	- Renamed all 'system 3' image files to 'bannerlogo'
+	- All 'rip' images were renamed to 'comic_rip'
+	- All 'comic_rip' images were moved to their respective theme folders
+	- All 'launch' sound files were moved to their respective theme folders and renamed to 'launch.wav'
+	- Removed 'misc' theme, 'Template' replaces this theme
+	- Removed 'love' theme, 'Favorites' replaces this theme
+	- Removed 'tg16cd' theme, it was identical to 'tg-cd'theme
+	- Many aracde themes such as, 'arcade', 'mame', 'mame4all', etc had their bannerlogo turned on. It was previously off.
+	- Renamed 'coco' theme to 'tandy'
 
-		Added the following:
-		- The 'template' theme
-		- This theme folder contains a blank theme. It was created as a guide for those who wish to create new collection or system themes.
-		- There is also a 7z archive containing tutorials on how to create certain images and assets for this project.
-		- All comic_rip images, launch sound files, etc where added and properly named in the '_assets' folder.
-		- Added TMNTturtleguy's Adobe Photoshop .psd and .ai template files to the '_assets' folder.
+	Added the following:
+	- The 'template' theme
+	- This theme folder contains a blank theme. It was created as a guide for those who wish to create new collection or system themes.
+	- There is also a 7z archive containing tutorials on how to create certain images and assets for this project.
+	- All comic_rip images, launch sound files, etc where added and properly named in the '_assets' folder.
+	- Added TMNTturtleguy's Adobe Photoshop .psd and .ai template files to the '_assets' folder.
 
 
-		Updated the following:
-		- The 'batman' theme now has a 'Batman Spinning Logo' launch sound, and the 'bannerlogo' has been updated.
-		- The 'starwars' theme now has a 'Light-Saber Activation' launch sound
-		- The 'sonic' theme now has a 'Sonic Got an Emerald' launch sound
-		- The 'tmnt' theme now has a 'Cowabunga!' launch sound
+	Updated the following:
+	- The 'batman' theme now has a 'Batman Spinning Logo' launch sound, and the 'bannerlogo' has been updated.
+	- The 'starwars' theme now has a 'Light-Saber Activation' launch sound
+	- The 'sonic' theme now has a 'Sonic Got an Emerald' launch sound
+	- The 'tmnt' theme now has a 'Cowabunga!' launch sound
 
-		Added the following Themes by Holy2tack:
-		- Breath of Fire
-		- Chrono Trigger
-		- Crash Bandicoot
-		- Donkey Kong
-		- Final Fantasy
-		- Fire Emblem
-		- Kirby
-		- Legend of Heroes, The
-		- Legend of Zelda, The
-		- Metroid
-		- Pokemon
-		- Secret of Mana (Seiken Densetsu)
-		- Spyro
-		- Tactics Ogre
-		- Tales of Series
+	Added the following Themes by Holy2tack:
+	- Breath of Fire
+	- Chrono Trigger
+	- Crash Bandicoot
+	- Donkey Kong
+	- Final Fantasy
+	- Fire Emblem
+	- Kirby
+	- Legend of Heroes, The
+	- Legend of Zelda, The
+	- Metroid
+	- Pokemon
+	- Secret of Mana (Seiken Densetsu)
+	- Spyro
+	- Tactics Ogre
+	- Tales of Series
 
-		Added Themes:
-		- Banjo Kazooie
+	Added Themes:
+	- Banjo Kazooie
 
-		Work-in-Progress
-		- More Themes to Come
-		- Upscale older images for Raspberry Pi 4 and Windows Machines
+	Work-in-Progress
+	- More Themes to Come
+	- Upscale older images for Raspberry Pi 4 and Windows Machines
 
 v3.1  	12-16-19
-		Optimized several PNG files bringing the repo zip file size down to 143MB from 243MB
-		Converted all newer 1080p comic PNG files to 720p. This fixes loading issues on the Raspberry Pi
+	Optimized several PNG files bringing the repo zip file size down to 143MB from 243MB
+	Converted all newer 1080p comic PNG files to 720p. This fixes loading issues on the Raspberry Pi
 
-		Updated the following:
-		- MESS theme now has a proper system image
-		- SamCoup'e now has a proper system image
+	Updated the following:
+	- MESS theme now has a proper system image
+	- SamCoup'e now has a proper system image
 
-		Added Systems:
-		- FB Neo
-		- PS3
-		- Xbox
-		- Xbox 360
+	Added Systems:
+	- FB Neo
+	- PS3
+	- Xbox
+	- Xbox 360
 
-		Added Themes:
-		- Bomberman
-		- Castlevania
-		- Disney
-		- Luigi
-		- Mass Effect
-		- Mega Man Classic
-		- Mega Man X
-		- Mega Man Zero
-		- Simpsons
-		- Tomb Raider
+	Added Themes:
+	- Bomberman
+	- Castlevania
+	- Disney
+	- Luigi
+	- Mass Effect
+	- Mega Man Classic
+	- Mega Man X
+	- Mega Man Zero
+	- Simpsons
+	- Tomb Raider
