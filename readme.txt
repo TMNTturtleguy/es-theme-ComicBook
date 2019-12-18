@@ -181,154 +181,159 @@ All other themes are set to work with a generic comic background to match the re
 
 Changelog
 =========
-v2.0 4-18-2017
+v2.0	4-18-2017
 	Updated to main ES Branch
 		implemented <maxSize> on line 78
 			<maxSize>0.44 0.42</maxSize>
 	Added System Logos for the following systems:
-		FB Alpha
-		Mame
-		Mame-advmame
-		Mame-Libretro
-		Mame-mame4all
-		Mega Drive
-		NeoGeo
-		Ports
-		ScummVM
-		Steam
+	- FB Alpha
+	- Mame
+	- Mame-advmame
+	- Mame-Libretro
+	- Mame-mame4all
+	- Mega Drive
+	- NeoGeo
+	- Ports
+	- ScummVM
+	- Steam
 
-v2.1 4-19-2017
+v2.1	4-19-2017
 	md_image in video/detail view changed to maxSize
 	Marquee conflict resolved
 		Marquee removed from all systems except actual arcade cabinet systems
 		2nd System Logo removed from arcade cabinet systems
 		md_marquee deleted from comic_book.xml and moved to theme.xml
-	launch sounds added to all sega systems
-	comic backgrounds updated for FB Alpha and all Mame systems to match the Arcade background for the time being.
+	Launch sounds added to all sega systems
+	Comic backgrounds updated for FB Alpha and all Mame systems to match the Arcade background for the time being.
 	Comic background updated for all sega systems to match sega genesis background for the time being.
 
-v2.2 4-20-2017
+v2.2	4-20-2017
 	Marquee conflict resolved
 		Added marquee back to comic_book.xml and moved off of screen.
 	md_image below controller centered.
 
-v2.3 4-28-2017
-	sega cd border corrected
-	all backgrounds optimized to 720 resolution
-	removed all unused files from theme folders
-	optimized md image on video view to largest max size that will fit in the square area
+v2.3	4-28-2017
+	Sega CD border corrected
+	All backgrounds optimized to 720 resolution
+	Removed all unused files from theme folders
+	Optimized md image on video view to largest max size that will fit in the square area
 	Changed system info font to comic style font (will show as normal text in non updated systems)
+
 	Added the following systems:
-		atari 5200
-		atari lynx
-		daphne
-		Famicom
-		Game Boy Hacks
-		Game Boy Advance Hacks
-		game gear
-		Game Gear Hacks
-		master system
-		mega drive
-		neo geo
-		ngp
-		ngpc
-		NES Hacks
-		pc engine
-		Sega 32X
-		Sega CD
-		Sega Genesis Hacks
-		SG-1000
-		SNES Hacks
-		Super Famicom
-		Super Grafx
-		Turbo Grafix 16
-		Virtual Boy
-		ZX Spectrum
+	- atari 5200
+	- atari lynx
+	- daphne
+	- Famicom
+	- Game Boy Hacks
+	- Game Boy Advance Hacks
+	- game gear
+	- Game Gear Hacks
+	- master system
+	- mega drive
+	- neo geo
+	- ngp
+	- ngpc
+	- NES Hacks
+	- pc engine
+	- Sega 32X
+	- Sega CD
+	- Sega Genesis Hacks
+	- SG-1000
+	- SNES Hacks
+	- Super Famicom
+	- Super Grafx
+	- Turbo Grafix 16
+	- Virtual Boy
+	- ZX Spectrum
 
 	Added the following system logos:
-		3DO
-		amstrac cpc
-		apple 2
-		atari st
-		atari lynx
-		atari 5200
-		c64
-		colecovision
-		daphne
-		famicom
-		fds
-		game gear
-		game and watch
-		intellivision
-		kodi
-		master system
-		macintosh
-		msx
-		neo geo pocket
-		neo geo pocket color
-		odyssey2
-		pc (ms DOS)
-		pc-engine
-		sega 32x
-		sega CD
-		sg-1000
-		supergrafx
-		super famicom
-		turbo graphics 16
-		turbo graphics CD
-		vectrex
-		wonderswan
-		wonderswan color
-		zx specturm
+	- 3DO
+	- amstrac cpc
+	- apple 2
+	- atari st
+	- atari lynx
+	- atari 5200
+	- c64
+	- colecovision
+	- daphne
+	- famicom
+	- fds
+	- game gear
+	- game and watch
+	- intellivision
+	- kodi
+	- master system
+	- macintosh
+	- msx
+	- neo geo pocket
+	- neo geo pocket color
+	- odyssey2
+	- pc (ms DOS)
+	- pc-engine
+	- sega 32x
+	- sega CD
+	- sg-1000
+	- supergrafx
+	- super famicom
+	- turbo graphics 16
+	- turbo graphics CD
+	- vectrex
+	- wonderswan
+	- wonderswan color
+	- zx specturm
 
-v2.4 5-
+v2.4	5-
 	Feature tags added to comic_book.xml for carousel and video
 	Changed the border .SVG to .PNG to optimize the theme.
 	Added Comic Rip Mascot
 	Corrected Master System System Logo
 	Corrected All Turbo Grafx system logos
-	changed snes logo to classic purple color scheme
+	Changed snes logo to classic purple color scheme
 	Optimized the following backgrounds: Arcade, Atari Lynx, gbah, gb, genh, ggh, ngp, snesh
 	Removed the letter a from line one of all theme files.
-	corrected the following logos (line of floating pixels removed) lynx, msx, wonderswan, vertex, Oddyssey2, macintosh, apple2, famicom, gbah, atari st, amiga, C64, 3D0, sg-100
-	   virtual boy, daphne, Kodi, game and watch, PC Engine, ZX Spectrum, sega 32X, sega cd, mame, fba, ports, neogeo, steam
+
+	Corrected the following logos (line of floating pixels removed):
+	lynx, msx, wonderswan, vertex, Oddyssey2, macintosh, apple2, famicom, gbah, atari st, amiga, C64, 3D0, sg-100,
+	virtual boy, daphne, Kodi, game and watch, PC Engine, ZX Spectrum, sega 32X, sega cd, mame, fba, ports, neogeo, steam
+
 	Added new Systems:
-		cps1
-		cps2
-		cps3
-		capcom
+	- cps1
+	- cps2
+	- cps3
+	- capcom
+
 	Completed following Systems
-		3D0
-		amstrad cpc
-		apple 2
-		Atari 800
-		Atari Jaguar
-		atari St
-		AGS
-		bbc micro
-		c64
-		Channel f
-		colecovision
-		coco
-		desktop
-		dragon 32
-		game and watch
-		intellivision
-		kodi
-		MSX
-		oric
-		pce-cd
-		ports
-		residual vm
-		saturn
-		stratagus
-		ti99
-		trs80
-		videopac
-		vectrex
-		Wonderswan Colors
-		Wonderswan
-		zmachine
+	- 3D0
+	- amstrad cpc
+	- apple 2
+	- Atari 800
+	- Atari Jaguar
+	- atari St
+	- AGS
+	- bbc micro
+	- c64
+	- Channel f
+	- colecovision
+	- coco
+	- desktop
+	- dragon 32
+	- game and watch
+	- intellivision
+	- kodi
+	- MSX
+	- oric
+	- pce-cd
+	- ports
+	- residual vm
+	- saturn
+	- stratagus
+	- ti99
+	- trs80
+	- videopac
+	- vectrex
+	- Wonderswan Colors
+	- Wonderswan
+	- zmachine
 
 v2.5	5-21-17
 	Modified detailed view so image will show in black box properly.
@@ -342,29 +347,30 @@ v2.6	6-13-17
 	Updated size of video and image in black box
 	Updated to better support detailed view
 	Update for colors support for ratings
+
 	Added the following Themes:
-		- All Games
-		- Batman
-		- Beat'em Up
-		- Favorites
-		- Fighting
-		- Gamecube
-		- Kids
-		- Last Played
-		- Light Gun
-		- Mario
-		- Mega Man
-		- MSX2
-		- PS2
-		- PSP Minis
-		- Racing
-		- Shoot'em Up
-		- Sonic
-		- Sports
-		- TMNT
-		- Trackball
-		- Wii
-		- WiiU
+	- All Games
+	- Batman
+	- Beat'em Up
+	- Favorites
+	- Fighting
+	- Gamecube
+	- Kids
+	- Last Played
+	- Light Gun
+	- Mario
+	- Mega Man
+	- MSX2
+	- PS2
+	- PSP Minis
+	- Racing
+	- Shoot'em Up
+	- Sonic
+	- Sports
+	- TMNT
+	- Trackball
+	- Wii
+	- WiiU
 
 v3.0  	11-11-19
 	Over 2 years and still one of the best looking themes.
@@ -375,7 +381,7 @@ v3.0  	11-11-19
 	Biggest change is to the directory structure. There is no longer an 'art' folder in each of the theme's directory.
 	The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme.
 	All one has to do is create a folder and placing a few key files in it.
-	All you need, is to place your own comic.png and system.png image files in the folder, and copy the theme.xml from the 'template' theme folder.
+	All you need, is to place your own comic and system.png files in the folder, and copy the theme.xml from the 'template' theme folder.
 	You can also add a comic_rip.png, and launch.wav in the same folder to make a dynamic and immersive experience.
 
 	Changed the following:
