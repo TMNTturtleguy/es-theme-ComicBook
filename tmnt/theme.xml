@@ -35,14 +35,6 @@
 			<origin>0.5 0.5</origin>
 		</image>
 
-		<image name="controller" extra="false">
-			<path>./controller.png</path>
-			<pos>0.918 0.29</pos>
-			<maxSize>0.29 0.13</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>ffffff</color>
-		</image>
-
 		<image name="classic_logo" extra="true">
 			<path>./bannerlogo.png</path>
 			<pos>0.75 0.086</pos>
@@ -67,14 +59,6 @@
 	</view>
 
 	<view name="detailed">
-
-		<image name="controller" extra="true">
-			<path>./controller.png</path>
-			<pos>0.918 0.525</pos>
-			<maxSize>0.29 0.13</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>ffffff</color>
-		</image>
 
 	</view>
 

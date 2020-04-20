@@ -373,8 +373,8 @@ v2.6	6-13-17
 	- WiiU
 
 v3.0  	11-11-19
+	NOTE: Consider this a HARD fork of TMNTturtleguy's 16:9 version of ComicBook Theme.
 	Over 2 years and still one of the best looking themes.
-	Think of this v3.0 release as an overhaul release.
 	This is a fork of TMNTturtleguy's 16:9 version of ComicBook Theme. I do not plan on doing anything with the 4:3 variant.
 	HIGHLY RECOMMEND: That you do NOT overwrite your old 'comicbook' theme folder with this one.
 	Many of the files and directories have changed or been relocated.
@@ -461,3 +461,84 @@ v3.1  	12-16-19
 	- Mega Man Zero
 	- Simpsons
 	- Tomb Raider
+
+v3.2  00-00-20
+	Upscaled older system image files by a factor of 2 using Waifu2x.
+	Removed Tutorial archive
+	Removed unused assets
+	Optimized all PNG images to 128-bit color using PNGquant
+	Moved launch WAV files to corrisponding "hacks" systems
+	Replaced all SVG files with PNG files
+	Removed all "controller" images
+
+	Fixed the Following:
+	- Renamed chrashbandicoot to crashbandicoot
+
+	Changed the Following:
+	- PC is now MSDOS
+
+	Added Systems:
+	- Atomiswave
+	- Auto-at2players
+	- Auto-at4players
+	- Auto-neverplayed
+	- C64-Classic
+	- Capcom-Classic
+	- Famicom-Classic
+	- Famicom-Shonen
+	- Mega CD
+	- Mega Drive-Japan
+	- Naomi
+	- Neo-Geo CD
+	- NES-Classic
+	- Nintendo 3DS
+	- Nintendo 64DD
+	- PC
+	- PC-88
+	- PC-98
+	- PlayStation-Classic
+	- Pokemon Mini
+	- Satellaview
+	- SFC-Classic
+	- SNES-Classic-US
+	- SNES-Classic-EU
+	- Sufami Turbo
+	- Nintendo Switch
+	- Sharp X1
+	- Sharp X68000
+
+	Added Themes:
+	- Advance Wars
+	- Animal Crossing
+	- Ape Escape
+	- Blizzard
+	- Custom Robo
+	- Darkstalkers
+	- Diablo
+	- Doom
+	- Dot Hack
+	- Dragon Quest
+	- Earthbound
+	- Golden Sun
+	- Halo
+	- Humongous Entertainment
+	- JRPG
+	- Kingdom Hearts
+	- Konami
+	- Metal Gear
+	- Mother
+	- Pac-man
+	- Phantasy Star
+	- Pheonix Wright
+	- Ratchet & Clank
+	- Rayman
+	- Shining Force
+	- Starcraft
+	- Starfox
+	- Star Ocean
+	- Star Trek
+	- Street Fighter
+	- Warcraft
+	- Wario
+	- Witcher
+	- Yoshi
