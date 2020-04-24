@@ -35,6 +35,11 @@ See UserModInstruct.txt for instructions on available user modifications.
 ## Installation
 
 ## TODO
+- [ ] Rework all old System Images
+- [ ] Upscale Menu.png
+- [ ] Add Background Music
+- [ ] Add more Genre Themes
+- [ ] Adjust Carousel Transparancy/Color for better viewing
 
 ## History??
 
@@ -244,153 +249,153 @@ Work-in-Progress
 	- Witcher
 	- Yoshi
 
-## Rework Status
+## Rework Status (Total Themes: 210)
 
-## EmulationStation Auto-Themes (7)
+### Legend
+:heavy_check_mark: - Finalized\
+:x: - Missing\
+:heavy_plus_sign: - Present but needs Updated or Altered
+
+## EmulationStation Auto-Themes (8)
 |*System*|*System Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|
 |--------|--------------|-------------|-------|-----------|--------------|
 |auto-allgames|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |auto-at2players|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|auto-at4players|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|auto-at4players|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |auto-favorites|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |auto-lastplayed|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|auto-neverplayed|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|custom-collections
+|auto-neverplayed|:heavy_plus_sign:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|custom-collections|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |arcade|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 
-## System Themes (127)
+## System Themes (123)
 |*System*|*System Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|
 |--------|--------------|-------------|-------|-----------|--------------|
-|Test|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|3do |
-|ags
-|amiga
-|amigacd32
-|amstradcpc
-|apple2
-|atari2600
-|atari5200
-|atari7800
-|atari800
-|atarijaguar
-|atarilynx
-|atarist
-|atomiswave
-|bbcmicro
-|c64
-|c64-classic
-|capcom
-|capcom-classic
-|channelf
-|coco
-|colecovision
+|3do |:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|ags|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|amiga|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|amigacd32|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|amstradcpc|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|apple2|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|atari2600|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|atari5200|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|atari7800|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|atari800|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|atarijaguar|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|atarilynx|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|atarist|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|atomiswave|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|bbcmicro|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|c64|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|c64-mini|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|capcom-classic|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|channelf|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|coco|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|colecovision|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |cps1
 |cps2
 |cps3
-|daphne
-|desktop
-|dragon32
-|dreamcast
-|famicom
-|famicom-classic
-|famicom-shonen
-|fba
-|fbneo
-|fds
-|gameandwatch
-|gamegear
-|gb
-|gba
-|gbah
-|gbc
-|gbh
-|gc
-|genesis
-|genh
-|ggh
-|intellivision
-|kids
-|macintosh
-|mame
-|mame-advmame
-|mame-libretro
-|mame-mame4all
-|mamerow
-|mastersystem
-|megacd
-|megadrive
-|megadrive-japan
-|mess
-|msdos
-|msx
-|msx2
-|n3ds
-|n64
-|n64dd
-|naomi
-|nds
+|daphne|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|desktop|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:x:|:x:|
+|dragon32|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:x:|
+|dreamcast|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|famicom|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|famicom-classic|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|famicom-shonen|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|fba|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|fbneo|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|fds|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gameandwatch|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|
+|gamegear|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gb|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gba|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gbah|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gbc|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gbh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gc|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|genesis|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|genh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|ggh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|intellivision|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|macintosh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|mame|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|mame-advmame|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|mame-libretro|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|mame-mame4all|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|mamerow|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|mastersystem|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|megacd|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|megadrive|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|megadrive-japan|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|mess|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|msdos|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|msx|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|msx2|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|n3ds|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|n64|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|n64dd|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|naomi|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|nds|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
 |neogeo
-|neogeocd
-|nes
-|nes-classic
-|nesh
-|ngp
-|ngpc
-|odyssey2
-|oric
-|pc
-|pc-88
-|pc-98
-|pce-cd
-|pcengine
-|pokemini
-|ps2
-|ps3
-|psp
-|pspminis
-|psx
-|psx-classic
-|residualvm
-|retropie
-|samcoupe
-|satellaview
-|saturn
-|scummvm
-|sega32x
-|segacd
-|sfc
-|sfc-classic
-|sg-1000
-|snes
-|snes-classic-eu
-|snes-classic-us
-|snesh
-|steam
-|stratagus
-|sufamiturbo
-|supergrafx
-|switch
-|template
-|tg-cd
-|tg16
-|ti99
-|trackball
-|trs-80
-|vectrex
-|videopac
-|virtualboy
-|wii
-|wiiu
-|wonderswan
-|wonderswancolor
-|x1
-|x68000
-|xbox
-|xbox360
-|zmachine
-|zxspectrum
+|neogeocd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|nes|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|nes-classic|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|nesh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|ngp|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|ngpc|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|odyssey2|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|oric|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|pc|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
+|pc-88|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:x:|
+|pc-98|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:x:|
+|pce-cd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|pcengine|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|pokemini|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|
+|ps2|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|ps3|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|psp|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|
+|pspminis|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|
+|psx|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|psx-classic|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|residualvm|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|retropie|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
+|samcoupe|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|satellaview|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|saturn|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|scummvm|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|sega32x|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|segacd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|sfc|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|sfc-classic|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|sg-1000|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|snes|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|snes-classic-eu|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|snes-classic-us|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|snesh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|steam|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|:x:|
+|stratagus|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|sufamiturbo|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|supergrafx|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|switch|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|tg-cd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|tg16|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|ti99|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|trs-80|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|vectrex|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|videopac|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|virtualboy|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|wii|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|wiiu|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|wonderswan|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|wonderswancolor|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|x1|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
+|x68000|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
+|xbox|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|xbox360|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|zmachine|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:x:|:x:|
+|zxspectrum|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 
-## Genre Themes (7)
+## Genre Themes (8)
 |*Theme*|*Theme Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|
 |-------|-------------|-------------|-------|-----------|--------------|
 |btmups
@@ -400,8 +405,9 @@ Work-in-Progress
 |racing
 |shmups
 |sports
+|trackball
 
-## Custom Themes (68)
+## Custom Themes (71)
 |*Theme*|*Theme Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|
 |-------|-------------|-------------|-------|-----------|--------------|
 |advancewars
@@ -412,6 +418,7 @@ Work-in-Progress
 |blizzard
 |bomberman
 |breathoffire
+|capcom
 |castlevania
 |chrono
 |crashbandicoot
@@ -430,6 +437,7 @@ Work-in-Progress
 |halo
 |humongous
 |jrpg
+|kids
 |kingdomhearts
 |kirby
 |kodi
@@ -465,6 +473,7 @@ Work-in-Progress
 |supersmashbros
 |tacticsogre
 |tales
+|template
 |tmnt
 |tombraider
 |warcraft
