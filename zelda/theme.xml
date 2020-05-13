@@ -35,12 +35,12 @@
 			<origin>0.5 0.5</origin>
 		</image>
 
-    <image name="classic_logo" extra="true">
-      <path>./bannerlogo.png</path>
-      <pos>0.75 0.086</pos>
-      <maxSize>0.26 0.1</maxSize>
-      <origin>0.5 0.5</origin>
-    </image>
+		<image name="classic_logo" extra="true">
+		<path>./bannerlogo.png</path>
+		<pos>0.75 0.086</pos>
+		<maxSize>0.40 0.1</maxSize>
+		<origin>0.5 0.5</origin>
+		</image>
 
 		<image name="comic_rip" extra="true">
 			<path>./comic_rip.png</path>
@@ -49,9 +49,9 @@
 			<origin>0.5 0.5</origin>
 		</image>
 
-    <sound name="launch">
-      <path>./launch.wav</path>
-    </sound>
+		<sound name="launch">
+		<path>./launch.wav</path>
+		</sound>
 
 	</view>
 

@@ -8,7 +8,7 @@ Theme Concept based on images posted by: [lipebello](https://retropie.org.uk/for
 For use with [EmulationStation](https://emulationstation.org/index.html)
 
 ## Recommended EmulationStation Forks:
-* [EmulationStation FCAMOD](https://github.com/fabricecaruso/EmulationStation/releases) by [fabricecaruso](https://retropie.org.uk/forum/user/f-caruso) - Optimized for Windows
+* [Batocera EmulationStation](https://github.com/fabricecaruso/batocera-emulationstation/releases) by [fabricecaruso](https://retropie.org.uk/forum/user/f-caruso) - Optimized for Windows
 * [RetroPie EmulationStation](https://github.com/jrassa/EmulationStation/releases) by [jrassa](https://retropie.org.uk/forum/user/jdrassa) - Retropie EmulationStation ported to Windows
 
 
@@ -19,6 +19,7 @@ For use with [EmulationStation](https://emulationstation.org/index.html)
 - [pjft](https://retropie.org.uk/forum/user/pjft)         - for all the support throughout the build, testing, and work on the pixel effect
 - [Nismo](https://retropie.org.uk/forum/user/nismo)        - for all of the testing, input, and suggested improvements
 - [Ruckage](https://retropie.org.uk/forum/user/ruckage)      - for updating font characters to support multiple languages.
+- [salor10](https://retropie.org.uk/forum/user/salor10) - for adding some comic rip art.
 - Safemode     - for testing debuging, and critque help
 - Elcie 	   - for Image editing and insight help
 
@@ -40,13 +41,14 @@ See UserModInstruct.txt for instructions on available user modifications.
 - [ ] Add Background Music
 - [ ] Add more Genre Themes
 - [ ] Adjust Carousel Transparancy/Color for better viewing
+- [ ] Implement zIndexing
 
-## History??
+## History
 
 2.0 is designed on EmulationStation with maxSize for video and carousel updates.  It also works on the updated Screensaver OMX build by [pjft](https://retropie.org.uk/forum/user/pjft) on Apr2017
--Video and images will work properly on both VLC and OMX players.
--If running on an older of ES without maxSize.  Edit line 78 of comic_book.xml to `<size>`.
--If running ES with carousel build, the games available should be in comic book font.  If not up to date, standard font will show.
+- Video and images will work properly on both VLC and OMX players.
+- If running on an older of ES without maxSize.  Edit line 78 of comic_book.xml to `<size>`.
+- If running ES with carousel build, the games available should be in comic book font.  If not up to date, standard font will show.
 
 Example for es_systems.cfg - copied gba and modified `<name>`, `<path>`, `<platform>`, and `<theme>` to gbah
 
@@ -63,6 +65,7 @@ Example for es_systems.cfg - copied gba and modified `<name>`, `<path>`, `<platf
   ```
 
 The theme is designed for use with video preview.
+
 - The detail (Video View) will play the preview video "md_video" in the large black box.
 - Scraped art "md_image" will be displayed in the bottom gray box to the right of the video.
 - If you have at least 1 video, the scraped art "md_image" will appear in both the Large Black box and the small gray box for all games that are missing videos.
@@ -77,177 +80,203 @@ All other themes are set to work with a generic comic background to match the re
 ### Version 2.0 -> v2.6 
 - Changes can be found in parent repository https://github.com/TMNTturtleguy/es-theme-ComicBook
 
+---
 ### Version 3.0
-NOTE: Consider this a HARD fork of TMNTturtleguy's 16:9 version of ComicBook Theme.\
-	Over 2 years and still one of the best looking themes.\
-	This is a fork of TMNTturtleguy's 16:9 version of ComicBook Theme. I do not plan on doing anything with the 4:3 variant.\
-	HIGHLY RECOMMEND: That you do NOT overwrite your old 'comicbook' theme folder with this one.
-	Many of the files and directories have changed or been relocated.\
-	Biggest change is to the directory structure. There is no longer an 'art' folder in each of the theme's directory.\
-	The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme.\
-	All one has to do is create a folder and placing a few key files in it.\
-	All you need, is to place your own comic and system.png files in the folder, and copy the theme.xml from the 'template' theme folder.\
-	You can also add a comic_rip.png, and launch.wav in the same folder to make a dynamic and immersive experience.
+**NOTE**: Consider this a **HARD FORK** of TMNTturtleguy's 16:9 version of ComicBook Theme.
+
+Over 2 years and still one of the best looking themes.\
+This is a fork of [TMNTturtlguy's](https://retropie.org.uk/forum/user/tmntturtlguy) 16:9 version of ComicBook Theme.\
+I do not plan on doing anything with the 4:3 variant.\
+**HIGHLY RECOMMEND**: That you do **NOT** overwrite your old 'comicbook' theme folder with this one. Many of the files and directories have altered/renamed or have been relocated.\
+Biggest change is to the directory structure. There is no longer an 'art' folder in each of the theme's directory.\
+The reasoning behind this change is to make it as simple as possible for anyone to create/submit a new theme.\
+All one has to do is create a folder and placing a few key files in it.\
+All you need, is to place your own comic and system.png files in the folder, and copy the theme.xml from the 'template' theme folder.\
+You can also add a comic_rip.png, and launch.wav in the same folder to make a more dynamic and immersive experience.
 
 Changed the following:
-	- Simplified directory structure. All contents in the 'art' folder in each theme have been moved to the parent's folder.
-	- The 'art' folder was renamed to '_assets'
-	- Theme 'TMNT' was renamed to 'tmnt'
-	- Renamed all 'system 3' image files to 'bannerlogo'
-	- All 'rip' images were renamed to 'comic_rip'
-	- All 'comic_rip' images were moved to their respective theme folders
-	- All 'launch' sound files were moved to their respective theme folders and renamed to 'launch.wav'
-	- Removed 'misc' theme, 'Template' replaces this theme
-	- Removed 'love' theme, 'Favorites' replaces this theme
-	- Removed 'tg16cd' theme, it was identical to 'tg-cd'theme
-	- Many aracde themes such as, 'arcade', 'mame', 'mame4all', etc had their bannerlogo turned on. It was previously off.
-	- Renamed 'coco' theme to 'tandy'
+- Simplified directory structure. All contents in the 'art' folder in each theme have been moved to the parent's folder.
+- The 'art' folder was renamed to '_assets'
+- Theme 'TMNT' was renamed to 'tmnt'
+- Renamed all 'system 3' image files to 'bannerlogo'
+- All 'rip' images were renamed to 'comic_rip'
+- All 'comic_rip' images were moved to their respective theme folders
+- All 'launch' sound files were moved to their respective theme folders and renamed to 'launch.wav'
+- Removed 'misc' theme, 'Template' replaces this theme
+- Removed 'love' theme, 'Favorites' replaces this theme
+- Removed 'tg16cd' theme, it was identical to 'tg-cd'theme
+- Many aracde themes such as, 'arcade', 'mame', 'mame4all', etc had their bannerlogo turned on. It was previously off.
+- Renamed 'coco' theme to 'tandy'
 
 Added the following:
-	- The 'template' theme
-	- This theme folder contains a blank theme. It was created as a guide for those who wish to create new collection or system themes.
-	- There is also a 7z archive containing tutorials on how to create certain images and assets for this project.
-	- All comic_rip images, launch sound files, etc where added and properly named in the '_assets' folder.
-	- Added TMNTturtleguy's Adobe Photoshop .psd and .ai template files to the '_assets' folder.
+- The 'template' theme
+- This theme folder contains a blank theme. It was created as a guide for those who wish to create new collection or system themes.
+- There is also a 7z archive containing tutorials on how to create certain images and assets for this project.
+- All comic_rip images, launch sound files, etc where added and properly named in the '_assets' folder.
+- Added TMNTturtleguy's Adobe Photoshop .psd and .ai template files to the '_assets' folder.
 
 
 Updated the following:
-	- The 'batman' theme now has a 'Batman Spinning Logo' launch sound, and the 'bannerlogo' has been updated.
-	- The 'starwars' theme now has a 'Light-Saber Activation' launch sound
-	- The 'sonic' theme now has a 'Sonic Got an Emerald' launch sound
-	- The 'tmnt' theme now has a 'Cowabunga!' launch sound
+- The 'batman' theme now has a 'Batman Spinning Logo' launch sound, and the 'bannerlogo' has been updated.
+- The 'starwars' theme now has a 'Light-Saber Activation' launch sound
+- The 'sonic' theme now has a 'Sonic Got an Emerald' launch sound
+- The 'tmnt' theme now has a 'Cowabunga!' launch sound
 
-Added the following Themes by Holy2tack:
-	- Breath of Fire
-	- Chrono Trigger
-	- Crash Bandicoot
-	- Donkey Kong
-	- Final Fantasy
-	- Fire Emblem
-	- Kirby
-	- Legend of Heroes, The
-	- Legend of Zelda, The
-	- Metroid
-	- Pokemon
-	- Secret of Mana (Seiken Densetsu)
-	- Spyro
-	- Tactics Ogre
-	- Tales of Series
+Added the following Themes by [holy2tack](https://retropie.org.uk/forum/user/holy2tack) :
+- Breath of Fire
+- Chrono Trigger
+- Crash Bandicoot
+- Donkey Kong
+- Final Fantasy
+- Fire Emblem
+- Kirby
+- Legend of Heroes, The
+- Legend of Zelda, The
+- Metroid
+- Pokemon
+- Secret of Mana (Seiken Densetsu)
+- Spyro
+- Tactics Ogre
+- Tales of Series
 
 Added Themes:
-	- Banjo Kazooie
+- Banjo Kazooie
 
 Work-in-Progress
-	- More Themes to Come
-	- Upscale older images for Raspberry Pi 4 and Windows Machines
+- More Themes to Come
+- Upscale older images for Raspberry Pi 4 and Windows Machines
+
+---
 
 ### Version 3.1
 
-	Optimized several PNG files bringing the repo zip file size down to 143MB from 243MB
-	Converted all newer 1080p comic PNG files to 720p. This fixes loading issues on the Raspberry Pi
+Optimized several PNG files bringing the repo zip file size down to 143MB from 243MB
+Converted all newer 1080p comic PNG files to 720p. This fixes loading issues on the Raspberry Pi
 
-	Updated the following:
-	- MESS theme now has a proper system image
-	- SamCoup'e now has a proper system image
+Updated the following:
+- MESS now has a proper system image
+- SamCoup'e now has a proper system image
 
-	Added Systems:
-	- FB Neo
-	- PS3
-	- Xbox
-	- Xbox 360
+Added Systems:
+- FB Neo
+- PS3
+- Xbox
+- Xbox 360
 
-	Added Themes:
-	- Bomberman
-	- Castlevania
-	- Disney
-	- Luigi
-	- Mass Effect
-	- Mega Man Classic
-	- Mega Man X
-	- Mega Man Zero
-	- Simpsons
-	- Tomb Raider
+Added Themes:
+- Bomberman
+- Castlevania
+- Disney
+- Luigi
+- Mass Effect
+- Mega Man Classic
+- Mega Man X
+- Mega Man Zero
+- Simpsons
+- Tomb Raider
 
+---
 ### Version 3.2
-	Upscaled older system image files by a factor of 2 using Waifu2x.
-	Removed Tutorial archive
-	Removed Unused assets
-	Optimized all PNG images to 128-bit color using PNGquant
-	Moved launch WAV files to corresponding "hacks" systems
-	Replaced all SVG files with PNG files
-	Removed all "controller" images
+Upscaled older system image files by a factor of 2 using Waifu2x.\
+Removed Tutorial archive\
+Removed Unused assets\
+Optimized all PNG images to 128-bit color using PNGquant\
+Moved launch WAV files to corresponding "hacks" systems\
+Replaced all SVG files with PNG files\
+Removed all "controller" images
 
-	Fixed the Following:
-	- Renamed chrashbandicoot to crashbandicoot
+Fixed the Following:
+- Renamed chrashbandicoot to crashbandicoot
 
-	Changed the Following:
-	- PC is now MSDOS
+Changed the Following:
+- PC is now MSDOS
 
-	Added Systems:
-	- Atomiswave
-	- Auto-at2players
-	- Auto-at4players
-	- Auto-neverplayed
-	- C64-Classic
-	- Capcom-Classic
-	- Famicom-Classic
-	- Famicom-Shonen
-	- Mega CD
-	- Mega Drive-Japan
-	- Naomi
-	- Neo-Geo CD
-	- NES-Classic
-	- Nintendo 3DS
-	- Nintendo 64DD
-	- PC
-	- PC-88
-	- PC-98
-	- PlayStation-Classic
-	- Pokemon Mini
-	- Satellaview
-	- SFC-Classic
-	- SNES-Classic-US
-	- SNES-Classic-EU
-	- Sufami Turbo
-	- Nintendo Switch
-	- Sharp X1
-	- Sharp X68000
+Added Systems:
+- Atomiswave
+- Auto-at2players
+- Auto-at4players
+- Auto-neverplayed
+- C64-Classic
+- Capcom-Classic
+- Famicom-Classic
+- Famicom-Shonen
+- Mega CD
+- Mega Drive-Japan
+- Naomi
+- Neo-Geo CD
+- NES-Classic
+- Nintendo 3DS
+- Nintendo 64DD
+- PC
+- PC-88
+- PC-98
+- PlayStation-Classic
+- Pokemon Mini
+- Satellaview
+- SFC-Classic
+- SNES-Classic-US
+- SNES-Classic-EU
+- Sufami Turbo
+- Nintendo Switch
+- Sharp X1
+- Sharp X68000
 
-	Added Themes:
-	- Advance Wars
-	- Animal Crossing
-	- Ape Escape
-	- Blizzard
-	- Custom Robo
-	- Darkstalkers
-	- Diablo
-	- Doom
-	- Dot Hack
-	- Dragon Quest
-	- Earthbound
-	- Golden Sun
-	- Halo
-	- Humongous Entertainment
-	- JRPG
-	- Kingdom Hearts
-	- Konami
-	- Metal Gear
-	- Mother
-	- Pac-man
-	- Phantasy Star
-	- Pheonix Wright
-	- Ratchet & Clank
-	- Rayman
-	- Shining Force
-	- Starcraft
-	- Starfox
-	- Star Ocean
-	- Star Trek
-	- Street Fighter
-	- Warcraft
-	- Wario
-	- Witcher
-	- Yoshi
+Added Themes:
+- Advance Wars
+- Animal Crossing
+- Ape Escape
+- Blizzard
+- Custom Robo
+- Darkstalkers
+- Diablo
+- Doom
+- Dot Hack
+- Dragon Quest
+- Earthbound
+- Golden Sun
+- Halo
+- Humongous Entertainment
+- JRPG
+- Kingdom Hearts
+- Konami
+- Metal Gear
+- Mother
+- Pac-man
+- Phantasy Star
+- Pheonix Wright
+- Ratchet & Clank
+- Rayman
+- Shining Force
+- Starcraft
+- Starfox
+- Star Ocean
+- Star Trek
+- Street Fighter
+- Warcraft
+- Wario
+- Witcher
+- Yoshi
+---
+### Version 3.2.1
+Changed the Following
+- Increased Default Font Size of Game Lists
+- Increased Default Font Size of Game Discription
+- Adjusted the Grey Select Cursor to fit better within the select window
+- Several Misc Art touchups for several assets
+
+Updated the Following:
+- Naomi Theme - Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
+- Atomiswave Theme - Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
+- X68000 Theme - Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
+
+---
+### Version 4.0
+
+Planning to add the following:
+- Background Music Support
+- Marquee Image Support
+
+---
 
 ## Rework Status (Total Themes: 210)
 
@@ -296,8 +325,8 @@ Work-in-Progress
 |cps2
 |cps3
 |daphne|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|desktop|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:x:|:x:|
-|dragon32|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:x:|
+|desktop|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
+|dragon32|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |dreamcast|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |famicom|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |famicom-classic|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
@@ -305,18 +334,18 @@ Work-in-Progress
 |fba|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |fbneo|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |fds|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|gameandwatch|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|
+|gameandwatch|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |gamegear|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |gb|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |gba|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |gbah|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |gbc|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |gbh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|gc|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|gc|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |genesis|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |genh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |ggh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|intellivision|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|intellivision|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |macintosh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |mame|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |mame-advmame|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
@@ -346,36 +375,36 @@ Work-in-Progress
 |odyssey2|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |oric|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |pc|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
-|pc-88|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_plus_sign:|:x:|
-|pc-98|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:x:|
+|pc-88|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|pc-98|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |pce-cd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |pcengine|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|pokemini|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|
+|pokemini|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |ps2|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |ps3|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
-|psp|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|
-|pspminis|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|
+|psp|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|pspminis|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |psx|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |psx-classic|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
 |residualvm|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |retropie|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 |samcoupe|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|satellaview|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|
+|satellaview|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |saturn|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |scummvm|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |sega32x|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |segacd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|sfc|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|sfc|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |sfc-classic|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |sg-1000|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snes|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snes-classic-eu|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snes-classic-us|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snesh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|steam|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|:x:|
+|steam|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 |stratagus|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |sufamiturbo|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|supergrafx|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|supergrafx|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |switch|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |tg-cd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |tg16|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
@@ -384,16 +413,16 @@ Work-in-Progress
 |vectrex|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |videopac|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |virtualboy|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|wii|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|wii|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |wiiu|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |wonderswan|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |wonderswancolor|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|x1|:heavy_check_mark:|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
-|x68000|:heavy_check_mark:|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:x:|
+|x1|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|x68000|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |xbox|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|xbox360|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|zmachine|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:x:|:x:|
-|zxspectrum|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|xbox360|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|zmachine|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|zxspectrum|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 
 ## Genre Themes (8)
 |*Theme*|*Theme Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|

@@ -66,11 +66,11 @@ Original author: Kevin Thueringer (TMNTturtlguy)
 			<secondaryColor>000000</secondaryColor>
 			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
 			<forceUppercase>0</forceUppercase>
-			<pos>0.014 0.18</pos>
-			<size>0.478 0.7495</size>
+			<pos>0.0145 0.178</pos>
+			<size>0.476 0.7495</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.0335</fontSize>
+			<fontSize>0.0480</fontSize>
 			<scrollSound>./_assets/scroll/scroll.wav</scrollSound>
 		</textlist>
 
@@ -207,9 +207,9 @@ Original author: Kevin Thueringer (TMNTturtlguy)
 			<color>000000</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<size>0.45 0.19</size>
-			<pos>0.525 0.746</pos>
+			<fontSize>0.030</fontSize>
+			<size>0.45 0.195</size>
+			<pos>0.525 0.740</pos>
 		</text>
 
 		<image name="md_hidden">

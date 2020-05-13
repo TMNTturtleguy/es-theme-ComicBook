@@ -38,7 +38,7 @@
 		<image name="classic_logo" extra="true">
 			<path>./bannerlogo.png</path>
 			<pos>0.75 0.086</pos>
-			<maxSize>0.26 0.1</maxSize>
+			<maxSize>0.40 0.15</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 
