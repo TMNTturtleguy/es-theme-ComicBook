@@ -266,7 +266,7 @@ Changed the Following
 
 Updated the Following:
 - Naomi Theme - Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
-- Atomiswave Theme - Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
+- Atomiswave Theme - Comic and Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
 - X68000 Theme - Comic Rip art courtesy of [salor10](https://retropie.org.uk/forum/user/salor10)
 
 ---
@@ -396,8 +396,8 @@ Planning to add the following:
 |segacd|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |sfc|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |sfc-classic|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|sg-1000|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|snes|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|sg-1000|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|snes|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snes-classic-eu|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snes-classic-us|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |snesh|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
@@ -427,7 +427,7 @@ Planning to add the following:
 ## Genre Themes (8)
 |*Theme*|*Theme Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|
 |-------|-------------|-------------|-------|-----------|--------------|
-|btmups
+|btmups|:heavy_plus_sign:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |fighting
 |lightgun
 |ports
@@ -439,24 +439,24 @@ Planning to add the following:
 ## Custom Themes (71)
 |*Theme*|*Theme Image*|*Banner Logo*|*Comic*|*Comic Rip*|*Launch Sound*|
 |-------|-------------|-------------|-------|-----------|--------------|
-|advancewars
-|animalcrossing
-|ape-escape
-|banjokazooie
-|batman
-|blizzard
-|bomberman
-|breathoffire
+|advancewars|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|animalcrossing|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|ape-escape|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|banjokazooie|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|batman|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|blizzard|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|bomberman|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|breathoffire|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |capcom
-|castlevania
-|chrono
-|crashbandicoot
-|customrobo
-|darkstalkers
-|diablo
-|disney
-|donkeykong
-|doom
+|castlevania|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|chrono|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|crashbandicoot|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|customrobo|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|darkstalkers|:heavy_check_mark:|:heavy_plus_sign:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|diablo|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|disney|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|donkeykong|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|doom|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |dothack
 |dragonquest
 |earthbound
